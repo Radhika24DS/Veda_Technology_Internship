@@ -1,0 +1,20 @@
+﻿Year,Country,Column,Issue,Action Taken,New Value
+2024,Bahrain,Economy (GDP per Capita),Missing value (NaN),Imputed with country's own average across other years,1.612
+2024,Tajikistan,Economy (GDP per Capita),Missing value (NaN),Imputed with country's own average across other years,0.729
+2024,State of Palestine,Economy (GDP per Capita),Missing value (NaN),Imputed with country's own average across other years,0.882
+2024,Bahrain,Social support,Missing value (NaN),Imputed with country's own average across other years,1.129
+2024,Tajikistan,Social support,Missing value (NaN),Imputed with country's own average across other years,1.092
+2024,State of Palestine,Social support,Missing value (NaN),Imputed with country's own average across other years,1.069
+2023,State of Palestine,Healthy life expectancy,Missing value (NaN),Imputed with country's own average across other years,0.522
+2024,Bahrain,Healthy life expectancy,Missing value (NaN),Imputed with country's own average across other years,0.629
+2024,Tajikistan,Healthy life expectancy,Missing value (NaN),Imputed with country's own average across other years,0.497
+2024,State of Palestine,Healthy life expectancy,Missing value (NaN),Imputed with country's own average across other years,0.522
+2024,Bahrain,Freedom to make life choices,Missing value (NaN),Imputed with country's own average across other years,0.678
+2024,Tajikistan,Freedom to make life choices,Missing value (NaN),Imputed with country's own average across other years,0.56
+2024,State of Palestine,Freedom to make life choices,Missing value (NaN),Imputed with country's own average across other years,0.346
+2024,Bahrain,Generosity,Missing value (NaN),Imputed with country's own average across other years,0.234
+2024,Tajikistan,Generosity,Missing value (NaN),Imputed with country's own average across other years,0.138
+2024,State of Palestine,Generosity,Missing value (NaN),Imputed with country's own average across other years,0.078
+2024,Bahrain,Perceptions of corruption,Missing value (NaN),Imputed with country's own average across other years,0.14
+2024,Tajikistan,Perceptions of corruption,Missing value (NaN),Imputed with country's own average across other years,0.266
+2024,State of Palestine,Perceptions of corruption,Missing value (NaN),Imputed with country's own average across other years,0.073
