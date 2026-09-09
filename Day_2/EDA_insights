@@ -1,0 +1,61 @@
+SAMPLE SUPERSTORE - EXPLORATORY DATA ANALYSIS
+Top 3 Insights & Interview Question Notes
+ 
+ 
+**TOP 3 INSIGHTS
+
+ 
+1. Discounting above ~20-30% is destroying profit, not just shrinking it.
+Correlation (heatmap), the scatter plot, and the discount-band trend line all
+agree: profit turns negative once discounts pass roughly 20-30%. This is the
+single most actionable finding — a discount cap or tighter discount approval
+policy could meaningfully improve overall profitability.
+ 
+2. High Sales does not guarantee high Profit — a few sub-categories are
+quietly losing money.
+Sales and Profit are only weakly correlated (~0.48). Tables and Bookcases
+generate real revenue but net losses overall, while Copiers, Phones, and
+Chairs are disproportionately profitable. Profitability should be managed at
+the sub-category level, not just by overall revenue.
+ 
+3. Regional performance is uneven once you look at margin, not just revenue.
+West and East lead in both Sales and Profit, but Central converts Sales into
+Profit less efficiently (lower profit margin %) despite reasonable Sales
+volume — suggesting a region-specific discounting or cost issue worth
+investigating separately from national averages.
+ 
+ 
+**Interview Questions
+ 
+Q1: How do you distinguish a genuine outlier from a data entry error?
+ 
+A genuine outlier is an extreme-but-plausible value supported by context
+(e.g., a very large bulk order with a high but realistic Sales value,
+confirmed against Quantity and Discount). A data entry error usually breaks
+a business rule or logical constraint — e.g., negative Quantity, a Discount
+above 1.0 (100%), a Postal Code that doesn't exist, or a Profit value
+mathematically inconsistent with Sales/Discount/Quantity. The practical steps
+are: (1) check if the value is physically/logically possible, (2) check if
+similar rows exist nearby (same product, same region), and (3) check if
+removing it changes conclusions dramatically — if a single row swings the
+whole result, it deserves manual verification before being kept or dropped.
+ 
+Q2: What's the difference between correlation and causation, and why does
+it matter in EDA?
+ 
+Correlation means two variables move together statistically; causation means
+one variable's change directly produces the change in the other. In this
+notebook, Discount and Profit are negatively correlated, but that alone
+doesn't prove discounting causes losses — it could be that low-margin
+products are also the ones most often discounted (a confounding variable).
+EDA is about generating well-supported hypotheses, not final causal proof;
+causal claims need controlled comparison or experiments (e.g., A/B testing
+discount levels).
+ 
+Q3: Which chart type would you use to show a trend over 12 months, and why?
+ 
+A line chart, because it preserves the natural left-to-right order of time
+and makes direction, slope, seasonality, and turning points immediately
+visible in a way that bar charts (better for comparing discrete categories)
+or scatter plots (better for relationships between two continuous variables
+without inherent order) do not.
