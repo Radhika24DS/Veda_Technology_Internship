@@ -1,0 +1,5 @@
+Region,Orders,Sales,Profit,Quantity,Profit Margin %,Avg Sale Value,Sales Rank,Profit Rank
+West,3193,725255.64,108329.81,12234,14.94,227.14,1,1
+East,2845,678435.2,91506.31,10609,13.49,238.47,2,2
+Central,2319,500782.85,39655.88,8768,7.92,215.95,3,4
+South,1620,391721.9,46749.43,6209,11.93,241.8,4,3
