@@ -1,0 +1,11 @@
+Raw shapes -> orders (830, 14), order_details (2155, 5)
+1. Trimmed leading/trailing whitespace in all columns
+2. Blank -> NULL: {'shipped_date': 21, 'ship_region': 507, 'ship_postal_code': 19}
+3. Converted dates to DATE and numeric columns to int/float (errors would raise)
+4. Duplicate rows: orders=0, details=0; duplicate order_id=0; duplicate (order_id,product_id)=0
+   Orphan order_details rows (no parent order): 0
+5. Validated: shipped>=order date, required>=order date, freight/qty/price > 0, 0<=discount<=1 (all passed)
+6. ship_region NULL for 507 orders (region not applicable) - kept as NULL, not imputed; ship_postal_code NULL for 19 (all Ireland) - kept as NULL
+   shipped_date NULL for 21 orders = not yet shipped - kept as NULL (meaningful)
+7. Added derived columns: orders.days_to_ship, orders.shipped_late (37 late orders); order_details.line_total
+8. Exported clean files -> orders (830, 16), order_details (2155, 6)

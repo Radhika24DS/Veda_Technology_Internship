@@ -1,0 +1,4 @@
+order_id,customer_id,order_date,required_date,ship_country
+11051,LAMAI,1998-04-27,1998-05-25,France
+11062,REGGC,1998-04-30,1998-05-28,Italy
+11076,BONAP,1998-05-06,1998-06-03,France
