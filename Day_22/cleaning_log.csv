@@ -1,0 +1,7 @@
+step,rows
+Raw rows,1067371
+After dropping missing Customer ID,824364
+After removing cancellations (C) / adjustments (A),805620
+After removing qty<=0 or price<=0,805549
+After removing exact duplicates,779425
+After dropping incomplete month (Dec-2011),762398
