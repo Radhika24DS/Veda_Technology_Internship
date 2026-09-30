@@ -1,0 +1,13 @@
+Loaded orders=(830, 14), order_details=(2155, 5)
+Trimmed whitespace, upper-cased customer_id, blank strings -> NULL
+Converted order_date / required_date / shipped_date to datetime
+Duplicate orders removed: 0; duplicate order lines removed: 0
+Orphan order lines (no parent order): 0
+Orders without any line item: 0
+Invalid quantity=0, discount=0, price=0, shipped-before-ordered=0
+shipped_date NULL = 21 (orders not shipped yet -> kept as NULL, flagged)
+ship_region NULL = 507 (region not applicable for many countries -> 'Not Specified')
+ship_postal_code NULL = 19 (-> 'Not Provided')
+Built order_summary: (830, 24); total revenue = 1,265,793.02
+Data range 1996-07-04 -> 1998-05-06; first & last months are partial (flag is_partial_month)
+Wrote cleaned CSVs and SQLite DB: northwind.db

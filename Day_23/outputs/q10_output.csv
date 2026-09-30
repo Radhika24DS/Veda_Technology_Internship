@@ -1,0 +1,4 @@
+vs_previous_order,orders,pct_of_orders
+1) First order (no previous),89,10.7
+2) Larger than previous,368,44.3
+3) Smaller than previous,373,44.9
