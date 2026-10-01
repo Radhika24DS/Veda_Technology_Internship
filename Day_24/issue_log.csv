@@ -1,0 +1,26 @@
+issue_no,rule_id,dimension,column,rule,severity,rows_affected,pct_affected,status,action,fix,priority_score,priority_rank,rows_after_cleaning,detected_on
+1,RNG-04,Validity,Postal Code,US ZIP code must have 5 digits (leading zero lost when stored as integer),High,449,4.49,FAIL,FIX,Store as text and left-pad with zeros to 5 chars,10.96,1,0,2026-10-01
+2,BIZ-03,Plausibility,Profit,Loss larger than the sale value (Profit / Sales < -100%),High,349,3.49,FAIL,FLAG,Keep; flag_extreme_loss = 1,10.63,2,348,2026-10-01
+3,BIZ-02,Plausibility,Profit,Loss-making line (Profit < 0),Medium,1871,18.72,FAIL,FLAG,Keep; flag_loss = 1,8.54,3,1869,2026-10-01
+4,BIZ-01,Plausibility,Discount,Deep discount (>= 50%) - needs business review,Medium,922,9.23,FAIL,FLAG,Keep; flag_deep_discount = 1,7.93,4,921,2026-10-01
+5,DUP-01,Uniqueness,ALL,Exact duplicate rows (all 13 columns identical; extra copies only),High,17,0.17,FAIL,REMOVE,"Keep first occurrence, drop repeats",6.77,5,0,2026-10-01
+6,OUT-02,Plausibility,Profit,Profit outlier (Tukey 1.5xIQR fence within each Sub-Category),Low,1353,13.54,FAIL,FLAG,Keep; flag_profit_outlier = 1,4.13,6,1353,2026-10-01
+7,OUT-01,Plausibility,Sales,Sales outlier (Tukey 1.5xIQR fence within each Sub-Category),Low,1004,10.05,FAIL,FLAG,Keep; flag_sales_outlier = 1,4.0,7,1003,2026-10-01
+8,CON-04,Consistency,Postal Code -> City,Each Postal Code must map to one City,Medium,5,0.05,FAIL,FLAG,Verify against USPS reference (do NOT auto-fix by majority vote),3.56,8,5,2026-10-01
+9,MISS-01,Completeness,ALL,Rows containing any null / NaN value,Critical,0,0.0,PASS,FIX,Impute or drop (none required if 0),0.0,0,0,2026-10-01
+10,DOM-01,Validity,Ship Mode,Ship Mode must be in the allowed list,Medium,0,0.0,PASS,FIX,Standardise label,0.0,0,0,2026-10-01
+11,RNG-05,Validity,Profit,Profit cannot exceed Sales (margin > 100%),High,0,0.0,PASS,FLAG,Investigate,0.0,0,0,2026-10-01
+12,RNG-03,Validity,Discount,"Discount must lie in [0, 1]",Critical,0,0.0,PASS,FLAG,Investigate / cap,0.0,0,0,2026-10-01
+13,RNG-02,Validity,Quantity,Quantity must be an integer between 1 and 100,High,0,0.0,PASS,FLAG,Investigate / exclude,0.0,0,0,2026-10-01
+14,MISS-02,Completeness,Text columns,Blank or whitespace-only strings in text fields,High,0,0.0,PASS,FIX,"Treat as null, then impute/drop",0.0,0,0,2026-10-01
+15,RNG-01,Validity,Sales,Sales must be > 0,Critical,0,0.0,PASS,FLAG,Investigate / exclude,0.0,0,0,2026-10-01
+16,DOM-02,Validity,Segment,Segment must be in the allowed list,Medium,0,0.0,PASS,FIX,Standardise label,0.0,0,0,2026-10-01
+17,DOM-03,Validity,Region,Region must be in the allowed list,Medium,0,0.0,PASS,FIX,Standardise label,0.0,0,0,2026-10-01
+18,CON-03,Consistency,Postal Code -> State,Each Postal Code must belong to exactly one State,High,0,0.0,PASS,FLAG,Verify against USPS reference,0.0,0,0,2026-10-01
+19,CON-02,Consistency,State -> Region,Each State must map to exactly one Region,High,0,0.0,PASS,FIX,Re-map to majority Region,0.0,0,0,2026-10-01
+20,CON-01,Consistency,Sub-Category -> Category,Each Sub-Category must map to exactly one Category,High,0,0.0,PASS,FIX,Re-map to majority Category,0.0,0,0,2026-10-01
+21,DOM-06,Validity,State,State must be a valid US state name / DC,High,0,0.0,PASS,FIX,Standardise spelling,0.0,0,0,2026-10-01
+22,DOM-05,Validity,Country,Country must be 'United States',Medium,0,0.0,PASS,FIX,Standardise label,0.0,0,0,2026-10-01
+23,DOM-04,Validity,Category,Category must be in the allowed list,Medium,0,0.0,PASS,FIX,Standardise label,0.0,0,0,2026-10-01
+24,CON-05,Consistency,Text columns,Leading/trailing/double spaces or ALL-lower / ALL-UPPER casing in text fields,Low,0,0.0,PASS,FIX,strip + collapse spaces; title-case only if ALL-lower/UPPER,0.0,0,0,2026-10-01
+25,BIZ-04,Plausibility,Profit vs Discount,Loss-making line despite 0% discount (unexplained loss),High,0,0.0,PASS,FLAG,Investigate cost data,0.0,0,0,2026-10-01

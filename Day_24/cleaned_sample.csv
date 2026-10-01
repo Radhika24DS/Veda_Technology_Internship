@@ -1,0 +1,501 @@
+Ship Mode,Segment,Country,City,State,Postal Code,Region,Category,Sub-Category,Sales,Quantity,Discount,Profit,Profit Margin,Unit List Price,flag_loss,flag_deep_discount,flag_extreme_loss,flag_sales_outlier,flag_profit_outlier
+Standard Class,Consumer,United States,Fort Lauderdale,Florida,33311,South,Furniture,Tables,957.5775,5,0.45,-383.031,-0.4,348.21,1,0,0,0,1
+Standard Class,Home Office,United States,Fort Worth,Texas,76106,Central,Office Supplies,Appliances,68.81,5,0.8,-123.858,-1.8,68.81,1,1,1,0,1
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Furniture,Furnishings,124.2,3,0.2,15.525,0.125,51.75,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Office Supplies,Art,86.304,6,0.2,9.7092,0.1125,17.98,0,0,0,1,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Office Supplies,Art,15.76,2,0.2,3.546,0.225,9.85,0,0,0,0,0
+First Class,Corporate,United States,Richardson,Texas,75080,Central,Technology,Phones,1097.544,7,0.2,123.4737,0.1125,195.99,0,0,0,1,0
+Standard Class,Home Office,United States,Houston,Texas,77041,Central,Furniture,Chairs,212.058,3,0.3,-15.147,-0.0714,100.98,1,0,0,0,0
+First Class,Corporate,United States,Houston,Texas,77041,Central,Furniture,Furnishings,9.708,3,0.6,-5.8248,-0.6,8.09,1,1,0,0,0
+First Class,Corporate,United States,Decatur,Alabama,35601,South,Office Supplies,Binders,16.74,3,0.0,8.0352,0.48,5.58,0,0,0,0,0
+Second Class,Home Office,United States,Houston,Texas,77095,Central,Office Supplies,Storage,158.368,7,0.2,13.8572,0.0875,28.28,0,0,0,0,0
+Second Class,Consumer,United States,Minneapolis,Minnesota,55407,Central,Office Supplies,Paper,12.96,2,0.0,6.2208,0.48,6.48,0,0,0,0,0
+Second Class,Home Office,United States,New York City,New York,10009,East,Furniture,Furnishings,96.53,7,0.0,40.5426,0.42,13.79,0,0,0,0,0
+Standard Class,Home Office,United States,Chicago,Illinois,60610,Central,Office Supplies,Binders,1.788,3,0.8,-3.0396,-1.7,2.98,1,1,1,0,0
+Standard Class,Consumer,United States,Charlotte,North Carolina,28205,South,Technology,Accessories,74.112,8,0.2,17.6016,0.2375,11.58,0,0,0,0,0
+Standard Class,Consumer,United States,Charlotte,North Carolina,28205,South,Technology,Phones,27.992,1,0.2,2.0994,0.075,34.99,0,0,0,0,0
+Standard Class,Consumer,United States,Charlotte,North Carolina,28205,South,Office Supplies,Art,3.304,1,0.2,1.0738,0.325,4.13,0,0,0,0,0
+First Class,Consumer,United States,Wilmington,Delaware,19805,East,Furniture,Furnishings,47.04,3,0.0,18.3456,0.39,15.68,0,0,0,0,0
+Standard Class,Consumer,United States,Roseville,California,95661,West,Office Supplies,Art,11.52,4,0.0,3.456,0.3,2.88,0,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92037,West,Technology,Accessories,3347.37,13,0.0,636.0003,0.19,257.49,0,0,0,1,1
+Second Class,Consumer,United States,New York City,New York,10009,East,Office Supplies,Storage,221.55,3,0.0,6.6465,0.03,73.85,0,0,0,0,0
+Second Class,Corporate,United States,Houston,Texas,77036,Central,Technology,Machines,2519.958,7,0.4,-251.9958,-0.1,599.99,1,0,0,0,0
+Second Class,Home Office,United States,Columbus,Ohio,43229,East,Office Supplies,Labels,18.496,8,0.2,6.2424,0.3375,2.89,0,0,0,0,0
+Standard Class,Consumer,United States,Chicago,Illinois,60623,Central,Furniture,Tables,219.075,3,0.5,-131.445,-0.6,146.05,1,1,0,0,0
+Second Class,Corporate,United States,New York City,New York,10024,East,Furniture,Furnishings,26.8,2,0.0,12.864,0.48,13.4,0,0,0,0,0
+Second Class,Corporate,United States,Arvada,Colorado,80004,West,Furniture,Furnishings,15.232,1,0.2,1.7136,0.1125,19.04,0,0,0,0,0
+Standard Class,Home Office,United States,New York City,New York,10024,East,Office Supplies,Storage,43.57,1,0.0,13.071,0.3,43.57,0,0,0,0,0
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Binders,4.896,3,0.7,-3.4272,-0.7,5.44,1,1,0,0,0
+Standard Class,Consumer,United States,Lowell,Massachusetts,01852,East,Office Supplies,Art,7.56,3,0.0,3.0996,0.41,2.52,0,0,0,0,0
+First Class,Corporate,United States,Columbus,Georgia,31907,South,Office Supplies,Labels,20.7,2,0.0,9.936,0.48,10.35,0,0,0,0,0
+Same Day,Corporate,United States,Manchester,Connecticut,06040,East,Office Supplies,Supplies,7.36,2,0.0,0.1472,0.02,3.68,0,0,0,0,0
+First Class,Consumer,United States,Cincinnati,Ohio,45231,East,Office Supplies,Art,2.624,1,0.2,0.4264,0.1625,3.28,0,0,0,0,0
+Standard Class,Consumer,United States,Huntington Beach,California,92646,West,Office Supplies,Art,95.92,8,0.0,25.8984,0.27,11.99,0,0,0,1,1
+Second Class,Corporate,United States,New York City,New York,10024,East,Furniture,Chairs,207.846,3,0.1,2.3094,0.0111,76.98,0,0,0,0,0
+Second Class,Consumer,United States,Auburn,New York,13021,East,Office Supplies,Art,30.48,3,0.0,7.9248,0.26,10.16,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10024,East,Technology,Accessories,159.98,2,0.0,57.5928,0.36,79.99,0,0,0,0,0
+First Class,Consumer,United States,Chicago,Illinois,60610,Central,Technology,Phones,2735.952,6,0.2,341.994,0.125,569.99,0,0,0,1,1
+Standard Class,Corporate,United States,Parker,Colorado,80134,West,Office Supplies,Binders,22.62,2,0.7,-15.08,-0.6667,37.7,1,1,0,0,0
+First Class,Consumer,United States,Gladstone,Missouri,64118,Central,Furniture,Furnishings,126.3,3,0.0,40.416,0.32,42.1,0,0,0,0,0
+Standard Class,Home Office,United States,Great Falls,Montana,59405,West,Office Supplies,Storage,1126.02,3,0.0,56.301,0.05,375.34,0,0,0,1,0
+Standard Class,Consumer,United States,Los Angeles,California,90032,West,Furniture,Furnishings,47.94,3,0.0,2.397,0.05,15.98,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98105,West,Office Supplies,Paper,19.44,3,0.0,9.3312,0.48,6.48,0,0,0,0,0
+Second Class,Consumer,United States,Long Beach,California,90805,West,Office Supplies,Paper,19.92,4,0.0,9.7608,0.49,4.98,0,0,0,0,0
+Standard Class,Consumer,United States,Salem,Oregon,97301,West,Office Supplies,Binders,16.821,3,0.7,-12.8961,-0.7667,18.69,1,1,0,0,0
+Standard Class,Corporate,United States,Dearborn,Michigan,48126,Central,Office Supplies,Appliances,555.21,5,0.1,178.901,0.3222,123.38,0,0,0,1,1
+Standard Class,Corporate,United States,Sierra Vista,Arizona,85635,West,Office Supplies,Appliances,30.144,2,0.2,3.0144,0.1,18.84,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Ohio,43229,East,Office Supplies,Binders,3.318,2,0.7,-2.6544,-0.8,5.53,1,1,0,0,0
+Standard Class,Corporate,United States,Mount Vernon,New York,10550,East,Technology,Phones,307.98,2,0.0,89.3142,0.29,153.99,0,0,0,0,0
+Standard Class,Home Office,United States,Seattle,Washington,98115,West,Technology,Accessories,179.97,3,0.0,86.3856,0.48,59.99,0,0,0,0,0
+Standard Class,Consumer,United States,Dallas,Texas,75220,Central,Office Supplies,Supplies,51.52,5,0.2,-10.948,-0.2125,12.88,1,0,0,0,0
+Standard Class,Corporate,United States,Atlanta,Georgia,30318,South,Office Supplies,Labels,12.39,3,0.0,5.6994,0.46,4.13,0,0,0,0,0
+Second Class,Corporate,United States,Bossier City,Louisiana,71111,South,Office Supplies,Envelopes,50.94,3,0.0,25.47,0.5,16.98,0,0,0,0,0
+Second Class,Corporate,United States,Bossier City,Louisiana,71111,South,Technology,Accessories,646.74,6,0.0,258.696,0.4,107.79,0,0,0,1,1
+Standard Class,Consumer,United States,Richmond,Virginia,23223,South,Office Supplies,Storage,15.42,1,0.0,4.1634,0.27,15.42,0,0,0,0,0
+Standard Class,Consumer,United States,Rochester,Minnesota,55901,Central,Office Supplies,Binders,20.16,7,0.0,9.8784,0.49,2.88,0,0,0,0,0
+Standard Class,Consumer,United States,Lake Elsinore,California,92530,West,Furniture,Chairs,283.92,5,0.2,17.745,0.0625,70.98,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Supplies,102.3,10,0.0,26.598,0.26,10.23,0,0,0,0,1
+Standard Class,Consumer,United States,New York City,New York,10009,East,Office Supplies,Paper,11.36,2,0.0,5.2256,0.46,5.68,0,0,0,0,0
+Same Day,Consumer,United States,Oceanside,California,92054,West,Furniture,Furnishings,204.6,2,0.0,53.196,0.26,102.3,0,0,0,0,1
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Technology,Phones,124.2,3,0.4,-31.05,-0.25,69.0,1,0,0,0,0
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Binders,18.588,2,0.7,-13.6312,-0.7333,30.98,1,1,0,0,0
+Standard Class,Corporate,United States,San Diego,California,92037,West,Office Supplies,Binders,19.936,4,0.2,7.2268,0.3625,6.23,0,0,0,0,0
+Standard Class,Home Office,United States,Philadelphia,Pennsylvania,19143,East,Office Supplies,Binders,25.176,4,0.7,-18.4624,-0.7333,20.98,1,1,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Binders,8.64,2,0.2,3.024,0.35,5.4,0,0,0,0,0
+Second Class,Consumer,United States,Seattle,Washington,98105,West,Office Supplies,Appliances,119.96,2,0.0,33.5888,0.28,59.98,0,0,0,0,0
+Second Class,Corporate,United States,Oakland,California,94601,West,Office Supplies,Labels,3.15,1,0.0,1.512,0.48,3.15,0,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92105,West,Office Supplies,Art,120.15,9,0.0,33.642,0.28,13.35,0,0,0,1,1
+Standard Class,Consumer,United States,Jonesboro,Arkansas,72401,South,Office Supplies,Art,22.96,7,0.0,6.6584,0.29,3.28,0,0,0,0,0
+Same Day,Consumer,United States,Lansing,Michigan,48911,Central,Office Supplies,Appliances,644.076,2,0.1,107.346,0.1667,357.82,0,0,0,1,0
+Same Day,Consumer,United States,Lansing,Michigan,48911,Central,Technology,Copiers,599.98,2,0.0,209.993,0.35,299.99,0,0,0,0,0
+First Class,Home Office,United States,Harrisonburg,Virginia,22801,South,Furniture,Tables,455.1,2,0.0,100.122,0.22,227.55,0,0,0,0,0
+Standard Class,Corporate,United States,Denver,Colorado,80219,West,Furniture,Chairs,544.008,3,0.2,40.8006,0.075,226.67,0,0,0,0,0
+Standard Class,Home Office,United States,Lorain,Ohio,44052,East,Office Supplies,Storage,27.44,2,0.2,2.401,0.0875,17.15,0,0,0,0,0
+Standard Class,Consumer,United States,Lakeville,Minnesota,55044,Central,Office Supplies,Binders,53.4,10,0.0,25.098,0.47,5.34,0,0,0,0,0
+Same Day,Consumer,United States,Houston,Texas,77036,Central,Office Supplies,Storage,281.424,11,0.2,-35.178,-0.125,31.98,1,0,0,0,1
+Standard Class,Consumer,United States,Colorado Springs,Colorado,80906,West,Office Supplies,Art,14.04,3,0.2,1.5795,0.1125,5.85,0,0,0,0,0
+First Class,Home Office,United States,Chicago,Illinois,60653,Central,Technology,Phones,47.984,2,0.2,5.998,0.125,29.99,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94122,West,Office Supplies,Paper,40.46,7,0.0,19.8254,0.49,5.78,0,0,0,0,0
+Standard Class,Consumer,United States,Dallas,Texas,75220,Central,Office Supplies,Binders,21.38,5,0.8,-33.139,-1.55,21.38,1,1,1,0,0
+Standard Class,Consumer,United States,Dallas,Texas,75220,Central,Office Supplies,Binders,6.744,4,0.8,-11.4648,-1.7,8.43,1,1,1,0,0
+Standard Class,Consumer,United States,Tempe,Arizona,85281,West,Office Supplies,Storage,10.744,1,0.2,0.8058,0.075,13.43,0,0,0,0,0
+Same Day,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Paper,11.352,3,0.2,4.1151,0.3625,4.73,0,0,0,0,0
+Standard Class,Corporate,United States,Atlanta,Georgia,30318,South,Office Supplies,Art,12.84,3,0.0,3.7236,0.29,4.28,0,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10024,East,Technology,Phones,307.98,2,0.0,89.3142,0.29,153.99,0,0,0,0,0
+First Class,Home Office,United States,Peoria,Illinois,61604,Central,Furniture,Bookcases,359.058,3,0.3,-35.9058,-0.1,170.98,1,0,0,0,0
+Standard Class,Home Office,United States,Eagan,Minnesota,55122,Central,Office Supplies,Art,29.79,3,0.0,12.5118,0.42,9.93,0,0,0,0,0
+Second Class,Home Office,United States,New York City,New York,10011,East,Office Supplies,Storage,59.48,2,0.0,8.922,0.15,29.74,0,0,0,0,0
+Same Day,Consumer,United States,Cleveland,Ohio,44105,East,Office Supplies,Paper,10.368,2,0.2,3.6288,0.35,6.48,0,0,0,0,0
+Same Day,Corporate,United States,San Francisco,California,94110,West,Office Supplies,Paper,13.36,2,0.0,6.4128,0.48,6.68,0,0,0,0,0
+Standard Class,Consumer,United States,Seattle,Washington,98115,West,Office Supplies,Binders,88.752,3,0.2,27.735,0.3125,36.98,0,0,0,0,0
+Second Class,Consumer,United States,Dallas,Texas,75217,Central,Office Supplies,Storage,41.92,5,0.2,3.668,0.0875,10.48,0,0,0,0,0
+Second Class,Home Office,United States,Plano,Texas,75023,Central,Technology,Accessories,13.616,2,0.2,3.5742,0.2625,8.51,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94110,West,Furniture,Bookcases,307.666,2,0.15,-14.4784,-0.0471,180.98,1,0,0,0,0
+Standard Class,Consumer,United States,Dallas,Texas,75081,Central,Office Supplies,Storage,338.04,3,0.2,-33.804,-0.1,140.85,1,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Technology,Accessories,17.9,2,0.0,3.401,0.19,8.95,0,0,0,0,0
+Second Class,Consumer,United States,Jacksonville,North Carolina,28540,South,Office Supplies,Paper,10.272,3,0.2,3.21,0.3125,4.28,0,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92105,West,Office Supplies,Binders,28.752,6,0.2,9.7038,0.3375,5.99,0,0,0,0,0
+Standard Class,Corporate,United States,Baltimore,Maryland,21215,East,Office Supplies,Labels,3.15,1,0.0,1.512,0.48,3.15,0,0,0,0,0
+Standard Class,Corporate,United States,Milwaukee,Wisconsin,53209,Central,Technology,Accessories,98.16,6,0.0,9.816,0.1,16.36,0,0,0,0,0
+First Class,Corporate,United States,Tulsa,Oklahoma,74133,Central,Technology,Phones,69.93,7,0.0,0.6993,0.01,9.99,0,0,0,0,0
+Standard Class,Consumer,United States,Redmond,Oregon,97756,West,Furniture,Furnishings,22.784,1,0.2,4.8416,0.2125,28.48,0,0,0,0,0
+Second Class,Consumer,United States,South Bend,Indiana,46614,Central,Office Supplies,Envelopes,106.75,7,0.0,49.105,0.46,15.25,0,0,0,0,0
+Standard Class,Corporate,United States,Aurora,Colorado,80013,West,Furniture,Tables,727.45,5,0.5,-465.568,-0.64,290.98,1,1,0,0,1
+Same Day,Consumer,United States,New York City,New York,10011,East,Furniture,Chairs,383.607,7,0.1,63.9345,0.1667,60.89,0,0,0,0,0
+Standard Class,Home Office,United States,Boynton Beach,Florida,33437,South,Office Supplies,Labels,11.952,3,0.2,3.8844,0.325,4.98,0,0,0,0,0
+Standard Class,Consumer,United States,Broomfield,Colorado,80020,West,Office Supplies,Storage,33.488,7,0.2,-1.2558,-0.0375,5.98,1,0,0,0,0
+First Class,Corporate,United States,Quincy,Illinois,62301,Central,Office Supplies,Storage,27.44,2,0.2,2.401,0.0875,17.15,0,0,0,0,0
+Standard Class,Consumer,United States,Oklahoma City,Oklahoma,73120,Central,Technology,Phones,479.96,4,0.0,134.3888,0.28,119.99,0,0,0,0,0
+Second Class,Consumer,United States,Louisville,Kentucky,40214,South,Furniture,Chairs,304.45,5,0.0,76.1125,0.25,60.89,0,0,0,0,0
+Standard Class,Corporate,United States,Leominster,Massachusetts,01453,East,Office Supplies,Binders,61.04,4,0.0,30.52,0.5,15.26,0,0,0,0,0
+Standard Class,Corporate,United States,Leominster,Massachusetts,01453,East,Office Supplies,Paper,10.95,3,0.0,5.1465,0.47,3.65,0,0,0,0,0
+Standard Class,Home Office,United States,Bozeman,Montana,59715,West,Office Supplies,Labels,14.62,2,0.0,6.8714,0.47,7.31,0,0,0,0,0
+Standard Class,Home Office,United States,Peoria,Arizona,85345,West,Office Supplies,Binders,9.156,2,0.7,-6.104,-0.6667,15.26,1,1,0,0,0
+Standard Class,Consumer,United States,Pomona,California,91767,West,Technology,Accessories,199.96,4,0.0,69.986,0.35,49.99,0,0,0,0,0
+Same Day,Consumer,United States,Redlands,California,92374,West,Furniture,Chairs,323.136,4,0.2,20.196,0.0625,100.98,0,0,0,0,0
+Standard Class,Home Office,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Paper,20.736,4,0.2,7.2576,0.35,6.48,0,0,0,0,0
+Second Class,Corporate,United States,Dover,New Hampshire,03820,East,Office Supplies,Art,38.52,9,0.0,11.9412,0.31,4.28,0,0,0,0,0
+Standard Class,Corporate,United States,Long Beach,New York,11561,East,Office Supplies,Binders,149.544,9,0.2,50.4711,0.3375,20.77,0,0,0,1,1
+Standard Class,Corporate,United States,York,Pennsylvania,17403,East,Office Supplies,Binders,38.088,4,0.7,-27.9312,-0.7333,31.74,1,1,0,0,0
+Standard Class,Home Office,United States,Deltona,Florida,32725,South,Office Supplies,Art,17.856,4,0.2,2.0088,0.1125,5.58,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10009,East,Furniture,Furnishings,63.68,8,0.0,28.0192,0.44,7.96,0,0,0,0,0
+Standard Class,Consumer,United States,Little Rock,Arkansas,72209,South,Furniture,Furnishings,22.2,6,0.0,9.102,0.41,3.7,0,0,0,0,0
+Standard Class,Corporate,United States,Burlington,Vermont,05408,East,Technology,Accessories,205.03,7,0.0,67.6599,0.33,29.29,0,0,0,0,0
+Second Class,Home Office,United States,San Diego,California,92105,West,Office Supplies,Paper,143.7,3,0.0,68.976,0.48,47.9,0,0,0,1,1
+Standard Class,Corporate,United States,Seattle,Washington,98115,West,Technology,Accessories,265.93,7,0.0,63.8232,0.24,37.99,0,0,0,0,0
+Same Day,Consumer,United States,Fairfield,Connecticut,06824,East,Office Supplies,Appliances,426.79,7,0.0,123.7691,0.29,60.97,0,0,0,0,0
+Standard Class,Corporate,United States,New York City,New York,10024,East,Furniture,Tables,613.908,3,0.4,-122.7816,-0.2,341.06,1,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10009,East,Office Supplies,Paper,6.48,1,0.0,3.1104,0.48,6.48,0,0,0,0,0
+Standard Class,Corporate,United States,Sparks,Nevada,89431,West,Technology,Machines,2396.4,10,0.2,179.73,0.075,299.55,0,0,0,0,0
+Standard Class,Consumer,United States,Newport News,Virginia,23602,South,Office Supplies,Paper,9.11,1,0.0,4.0995,0.45,9.11,0,0,0,0,0
+First Class,Consumer,United States,Los Angeles,California,90032,West,Technology,Accessories,82.95,5,0.0,29.0325,0.35,16.59,0,0,0,0,0
+Second Class,Corporate,United States,Newark,Delaware,19711,East,Office Supplies,Art,9.84,3,0.0,2.6568,0.27,3.28,0,0,0,0,0
+Standard Class,Home Office,United States,Oklahoma City,Oklahoma,73120,Central,Office Supplies,Labels,20.16,7,0.0,9.8784,0.49,2.88,0,0,0,0,0
+Standard Class,Home Office,United States,Oklahoma City,Oklahoma,73120,Central,Office Supplies,Binders,121.6,4,0.0,55.936,0.46,30.4,0,0,0,1,1
+Standard Class,Home Office,United States,Malden,Massachusetts,02148,East,Furniture,Bookcases,173.94,3,0.0,13.9152,0.08,57.98,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Technology,Accessories,50.0,2,0.0,12.0,0.24,25.0,0,0,0,0,0
+Standard Class,Corporate,United States,Columbus,Georgia,31907,South,Office Supplies,Binders,319.9,5,0.0,156.751,0.49,63.98,0,0,0,1,1
+Standard Class,Consumer,United States,New York City,New York,10024,East,Furniture,Furnishings,22.23,1,0.0,9.7812,0.44,22.23,0,0,0,0,0
+Second Class,Corporate,United States,Summerville,South Carolina,29483,South,Office Supplies,Binders,327.84,8,0.0,157.3632,0.48,40.98,0,0,0,1,1
+Standard Class,Corporate,United States,Arlington,Texas,76017,Central,Office Supplies,Labels,5.904,2,0.2,1.9926,0.3375,3.69,0,0,0,0,0
+Second Class,Consumer,United States,Tulsa,Oklahoma,74133,Central,Technology,Phones,104.85,3,0.0,28.3095,0.27,34.95,0,0,0,0,0
+Standard Class,Home Office,United States,Jacksonville,Florida,32216,South,Office Supplies,Paper,21.376,4,0.2,7.4816,0.35,6.68,0,0,0,0,0
+Standard Class,Home Office,United States,Jacksonville,Florida,32216,South,Office Supplies,Art,8.016,3,0.2,1.002,0.125,3.34,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94122,West,Office Supplies,Art,5.56,2,0.0,2.224,0.4,2.78,0,0,0,0,0
+Same Day,Consumer,United States,San Francisco,California,94122,West,Office Supplies,Art,59.52,3,0.0,15.4752,0.26,19.84,0,0,0,0,0
+Second Class,Consumer,United States,Lake Charles,Louisiana,70601,South,Furniture,Chairs,51.96,2,0.0,12.99,0.25,25.98,0,0,0,0,0
+Standard Class,Corporate,United States,Highland Park,Illinois,60035,Central,Furniture,Chairs,539.658,3,0.3,-7.7094,-0.0143,256.98,1,0,0,0,0
+Standard Class,Consumer,United States,Eagan,Minnesota,55122,Central,Office Supplies,Storage,52.4,5,0.0,14.148,0.27,10.48,0,0,0,0,0
+Standard Class,Consumer,United States,Hempstead,New York,11550,East,Office Supplies,Envelopes,41.4,5,0.0,19.458,0.47,8.28,0,0,0,0,0
+Standard Class,Corporate,United States,Detroit,Michigan,48234,Central,Office Supplies,Fasteners,6.08,1,0.0,3.04,0.5,6.08,0,0,0,0,0
+Standard Class,Home Office,United States,Burlington,North Carolina,27217,South,Office Supplies,Binders,1633.188,4,0.7,-1306.5504,-0.8,1360.99,1,1,0,1,1
+Standard Class,Home Office,United States,San Diego,California,92024,West,Furniture,Furnishings,26.25,3,0.0,11.025,0.42,8.75,0,0,0,0,0
+Standard Class,Consumer,United States,Springfield,Ohio,45503,East,Office Supplies,Binders,2.313,1,0.7,-1.9275,-0.8333,7.71,1,1,0,0,0
+Second Class,Consumer,United States,Fayetteville,North Carolina,28314,South,Furniture,Furnishings,28.272,2,0.2,6.3612,0.225,17.67,0,0,0,0,0
+Standard Class,Home Office,United States,Pharr,Texas,78577,Central,Furniture,Furnishings,22.608,3,0.6,-10.1736,-0.45,18.84,1,1,0,0,0
+Standard Class,Consumer,United States,West Jordan,Utah,84084,West,Office Supplies,Paper,92.94,3,0.0,41.823,0.45,30.98,0,0,0,0,0
+Standard Class,Corporate,United States,Pasadena,California,91104,West,Furniture,Tables,171.288,3,0.2,-6.4233,-0.0375,71.37,1,0,0,0,0
+Standard Class,Home Office,United States,Meridian,Idaho,83642,West,Office Supplies,Appliances,227.84,4,0.0,66.0736,0.29,56.96,0,0,0,0,0
+Second Class,Home Office,United States,Albuquerque,New Mexico,87105,West,Technology,Phones,140.736,8,0.2,49.2576,0.35,21.99,0,0,0,0,0
+Second Class,Home Office,United States,Albuquerque,New Mexico,87105,West,Technology,Accessories,214.95,5,0.0,88.1295,0.41,42.99,0,0,0,0,0
+Standard Class,Corporate,United States,Newark,Delaware,19711,East,Furniture,Furnishings,124.41,3,0.0,14.9292,0.12,41.47,0,0,0,0,0
+Standard Class,Consumer,United States,Newark,Delaware,19711,East,Technology,Phones,479.95,5,0.0,129.5865,0.27,95.99,0,0,0,0,0
+First Class,Home Office,United States,Los Angeles,California,90049,West,Technology,Phones,627.168,4,0.2,70.5564,0.1125,195.99,0,0,0,0,0
+First Class,Corporate,United States,Oceanside,New York,11572,East,Office Supplies,Binders,12.672,3,0.2,4.4352,0.35,5.28,0,0,0,0,0
+Second Class,Corporate,United States,Los Angeles,California,90004,West,Office Supplies,Art,32.4,5,0.0,10.368,0.32,6.48,0,0,0,0,0
+First Class,Consumer,United States,Newark,Ohio,43055,East,Technology,Accessories,2025.36,6,0.2,607.608,0.3,421.95,0,0,0,1,1
+First Class,Consumer,United States,Newark,Ohio,43055,East,Technology,Phones,101.988,2,0.4,-16.998,-0.1667,84.99,1,0,0,0,0
+Second Class,Home Office,United States,Glendale,Arizona,85301,West,Office Supplies,Paper,93.024,3,0.2,33.7212,0.3625,38.76,0,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92037,West,Furniture,Furnishings,53.2,5,0.0,14.896,0.28,10.64,0,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92037,West,Office Supplies,Labels,39.84,8,0.0,18.3264,0.46,4.98,0,0,0,0,0
+Standard Class,Corporate,United States,Houston,Texas,77095,Central,Technology,Phones,122.92,7,0.2,46.095,0.375,21.95,0,0,0,0,0
+Second Class,Corporate,United States,Seattle,Washington,98103,West,Office Supplies,Storage,324.9,5,0.0,38.988,0.12,64.98,0,0,0,0,0
+Second Class,Home Office,United States,Chicago,Illinois,60610,Central,Office Supplies,Art,7.056,3,0.2,2.205,0.3125,2.94,0,0,0,0,0
+Standard Class,Corporate,United States,Overland Park,Kansas,66212,Central,Office Supplies,Art,27.78,6,0.0,9.1674,0.33,4.63,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Office Supplies,Storage,76.792,1,0.2,-16.3183,-0.2125,95.99,1,0,0,0,0
+Standard Class,Consumer,United States,San Diego,California,92037,West,Office Supplies,Paper,81.98,2,0.0,40.1702,0.49,40.99,0,0,0,0,0
+First Class,Consumer,United States,Oakland,California,94601,West,Office Supplies,Art,17.12,4,0.0,4.9648,0.29,4.28,0,0,0,0,0
+Standard Class,Corporate,United States,San Diego,California,92037,West,Furniture,Bookcases,435.999,3,0.15,20.5176,0.0471,170.98,0,0,0,0,0
+Standard Class,Corporate,United States,Bristol,Connecticut,06010,East,Technology,Phones,359.98,2,0.0,93.5948,0.26,179.99,0,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10035,East,Furniture,Chairs,384.174,7,0.1,29.8802,0.0778,60.98,0,0,0,0,0
+Standard Class,Home Office,United States,Charlotte,North Carolina,28205,South,Office Supplies,Binders,50.454,6,0.7,-33.636,-0.6667,28.03,1,1,0,0,0
+Standard Class,Corporate,United States,Richmond,Kentucky,40475,South,Office Supplies,Art,5.46,3,0.0,1.4742,0.27,1.82,0,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Office Supplies,Binders,48.64,2,0.2,15.808,0.325,30.4,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90004,West,Technology,Machines,558.4,2,0.2,41.88,0.075,349.0,0,0,0,0,0
+Standard Class,Home Office,United States,Dubuque,Iowa,52001,Central,Furniture,Chairs,1408.1,10,0.0,394.268,0.28,140.81,0,0,0,1,1
+First Class,Consumer,United States,Philadelphia,Pennsylvania,19143,East,Office Supplies,Binders,538.194,2,0.7,-412.6154,-0.7667,896.99,1,1,0,1,1
+Standard Class,Corporate,United States,Columbus,Ohio,43229,East,Office Supplies,Paper,10.848,2,0.2,3.5256,0.325,6.78,0,0,0,0,0
+First Class,Corporate,United States,Springfield,Virginia,22153,South,Furniture,Tables,1202.94,3,0.0,300.735,0.25,400.98,0,0,0,0,1
+Standard Class,Consumer,United States,Carol Stream,Illinois,60188,Central,Furniture,Chairs,382.116,6,0.3,-92.7996,-0.2429,90.98,1,0,0,0,0
+Standard Class,Home Office,United States,Los Angeles,California,90036,West,Office Supplies,Appliances,487.92,6,0.0,136.6176,0.28,81.32,0,0,0,0,1
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Technology,Phones,135.516,1,0.4,-31.6204,-0.2333,225.86,1,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Binders,139.44,3,0.2,47.061,0.3375,58.1,0,0,0,1,0
+Standard Class,Home Office,United States,Quincy,Massachusetts,02169,East,Office Supplies,Paper,24.56,2,0.0,11.5432,0.47,12.28,0,0,0,0,0
+Standard Class,Consumer,United States,Clinton,Maryland,20735,East,Office Supplies,Binders,153.36,9,0.0,70.5456,0.46,17.04,0,0,0,1,1
+Standard Class,Consumer,United States,Houston,Texas,77041,Central,Office Supplies,Art,62.376,3,0.2,7.0173,0.1125,25.99,0,0,0,0,0
+Standard Class,Corporate,United States,Detroit,Michigan,48234,Central,Furniture,Chairs,476.8,2,0.0,119.2,0.25,238.4,0,0,0,0,0
+First Class,Corporate,United States,Los Angeles,California,90049,West,Furniture,Bookcases,616.998,6,0.15,-36.294,-0.0588,120.98,1,0,0,0,0
+Standard Class,Consumer,United States,Gilbert,Arizona,85234,West,Furniture,Furnishings,40.256,4,0.2,11.0704,0.275,12.58,0,0,0,0,0
+Standard Class,Home Office,United States,Philadelphia,Pennsylvania,19143,East,Furniture,Furnishings,547.136,4,0.2,-68.392,-0.125,170.98,1,0,0,1,1
+Standard Class,Consumer,United States,Phoenix,Arizona,85023,West,Furniture,Chairs,161.568,2,0.2,10.098,0.0625,100.98,0,0,0,0,0
+Standard Class,Consumer,United States,Phoenix,Arizona,85023,West,Office Supplies,Binders,7.656,4,0.7,-6.1248,-0.8,6.38,1,1,0,0,0
+Second Class,Consumer,United States,Los Angeles,California,90036,West,Office Supplies,Paper,17.34,3,0.0,8.4966,0.49,5.78,0,0,0,0,0
+Standard Class,Consumer,United States,Kenosha,Wisconsin,53142,Central,Furniture,Chairs,860.93,7,0.0,189.4046,0.22,122.99,0,0,0,0,0
+Standard Class,Consumer,United States,Roswell,Georgia,30076,South,Office Supplies,Paper,25.92,4,0.0,12.4416,0.48,6.48,0,0,0,0,0
+Standard Class,Consumer,United States,Atlanta,Georgia,30318,South,Office Supplies,Paper,193.8,5,0.0,94.962,0.49,38.76,0,0,0,1,1
+Standard Class,Consumer,United States,Atlanta,Georgia,30318,South,Office Supplies,Appliances,25.86,3,0.0,6.7236,0.26,8.62,0,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94110,West,Office Supplies,Paper,21.12,4,0.0,9.504,0.45,5.28,0,0,0,0,0
+Standard Class,Corporate,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Art,4.224,3,0.2,1.4784,0.35,1.76,0,0,0,0,0
+First Class,Consumer,United States,Concord,North Carolina,28027,South,Office Supplies,Art,20.016,9,0.2,1.7514,0.0875,2.78,0,0,0,0,0
+First Class,Consumer,United States,Jacksonville,North Carolina,28540,South,Technology,Phones,47.976,3,0.2,4.7976,0.1,19.99,0,0,0,0,0
+Standard Class,Corporate,United States,Tigard,Oregon,97224,West,Office Supplies,Paper,60.048,9,0.2,22.518,0.375,8.34,0,0,0,0,0
+Same Day,Home Office,United States,Fremont,Nebraska,68025,Central,Furniture,Furnishings,15.92,2,0.0,7.0048,0.44,7.96,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90036,West,Office Supplies,Binders,91.392,8,0.2,29.7024,0.325,14.28,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Envelopes,4.896,3,0.2,1.6524,0.3375,2.04,0,0,0,0,0
+First Class,Home Office,United States,Mesa,Arizona,85204,West,Office Supplies,Paper,31.104,6,0.2,10.8864,0.35,6.48,0,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10024,East,Office Supplies,Labels,21.93,3,0.0,10.3071,0.47,7.31,0,0,0,0,0
+Second Class,Consumer,United States,Seattle,Washington,98103,West,Office Supplies,Binders,18.288,6,0.2,6.6294,0.3625,3.81,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77036,Central,Furniture,Bookcases,956.6648,7,0.32,-225.0976,-0.2353,200.98,1,0,0,0,1
+Standard Class,Consumer,United States,New Rochelle,New York,10801,East,Furniture,Chairs,631.782,2,0.1,140.396,0.2222,350.99,0,0,0,0,0
+Second Class,Consumer,United States,Clarksville,Tennessee,37042,South,Office Supplies,Art,36.96,4,0.2,12.012,0.325,11.55,0,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10035,East,Furniture,Bookcases,183.968,2,0.2,-25.2956,-0.1375,114.98,1,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Art,68.97,3,0.0,19.3116,0.28,22.99,0,0,0,0,1
+First Class,Consumer,United States,New York City,New York,10024,East,Office Supplies,Paper,19.65,3,0.0,9.039,0.46,6.55,0,0,0,0,0
+Standard Class,Corporate,United States,Boise,Idaho,83704,West,Office Supplies,Binders,3.304,1,0.2,1.1151,0.3375,4.13,0,0,0,0,0
+Standard Class,Consumer,United States,Seattle,Washington,98105,West,Office Supplies,Binders,48.664,7,0.2,15.8158,0.325,8.69,0,0,0,0,0
+Standard Class,Home Office,United States,Seattle,Washington,98115,West,Office Supplies,Art,18.24,3,0.0,6.2016,0.34,6.08,0,0,0,0,0
+Standard Class,Home Office,United States,Seattle,Washington,98115,West,Office Supplies,Art,13.12,4,0.0,4.3296,0.33,3.28,0,0,0,0,0
+Standard Class,Corporate,United States,Providence,Rhode Island,02908,East,Technology,Phones,105.98,2,0.0,1.0598,0.01,52.99,0,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90004,West,Office Supplies,Appliances,7.9,2,0.0,2.054,0.26,3.95,0,0,0,0,0
+Second Class,Consumer,United States,San Francisco,California,94122,West,Office Supplies,Labels,51.75,5,0.0,24.84,0.48,10.35,0,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Office Supplies,Storage,242.94,3,0.0,9.7176,0.04,80.98,0,0,0,0,0
+Standard Class,Consumer,United States,Seattle,Washington,98105,West,Office Supplies,Binders,6.368,2,0.2,2.1492,0.3375,3.98,0,0,0,0,0
+Same Day,Consumer,United States,Detroit,Michigan,48205,Central,Office Supplies,Binders,29.52,4,0.0,14.4648,0.49,7.38,0,0,0,0,0
+Same Day,Consumer,United States,Detroit,Michigan,48205,Central,Furniture,Chairs,546.66,9,0.0,136.665,0.25,60.74,0,0,0,0,0
+Standard Class,Home Office,United States,Austin,Texas,78745,Central,Office Supplies,Art,5.248,2,0.2,0.5904,0.1125,3.28,0,0,0,0,0
+First Class,Consumer,United States,Los Angeles,California,90049,West,Office Supplies,Binders,895.92,5,0.2,302.373,0.3375,223.98,0,0,0,1,1
+Second Class,Home Office,United States,New York City,New York,10009,East,Furniture,Bookcases,275.952,3,0.2,-37.9434,-0.1375,114.98,1,0,0,0,0
+Same Day,Consumer,United States,Rochester,Minnesota,55901,Central,Office Supplies,Fasteners,7.9,2,0.0,2.528,0.32,3.95,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19143,East,Office Supplies,Binders,1.908,2,0.7,-1.5264,-0.8,3.18,1,1,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77070,Central,Furniture,Chairs,683.144,4,0.3,0.0,0.0,243.98,0,0,0,0,0
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Furniture,Furnishings,48.576,3,0.2,9.7152,0.2,20.24,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Appliances,81.552,2,0.2,8.1552,0.1,50.97,0,0,0,0,0
+Second Class,Corporate,United States,Salem,Oregon,97301,West,Office Supplies,Art,71.632,11,0.2,17.908,0.25,8.14,0,0,0,0,0
+Second Class,Corporate,United States,Salem,Oregon,97301,West,Office Supplies,Art,9.328,1,0.2,0.8162,0.0875,11.66,0,0,0,0,0
+Standard Class,Consumer,United States,Seattle,Washington,98103,West,Furniture,Chairs,2404.704,6,0.2,150.294,0.0625,500.98,0,0,0,1,0
+Standard Class,Corporate,United States,Seattle,Washington,98103,West,Office Supplies,Paper,47.9,1,0.0,22.992,0.48,47.9,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Labels,91.59,3,0.0,42.1314,0.46,30.53,0,0,0,1,1
+First Class,Corporate,United States,Jacksonville,Florida,32216,South,Furniture,Chairs,207.984,2,0.2,-28.5978,-0.1375,129.99,1,0,0,0,0
+Second Class,Corporate,United States,Chicago,Illinois,60610,Central,Office Supplies,Appliances,4.356,2,0.8,-11.7612,-2.7,10.89,1,1,1,0,0
+Standard Class,Home Office,United States,Colorado Springs,Colorado,80906,West,Office Supplies,Binders,3.108,2,0.7,-2.1756,-0.7,5.18,1,1,0,0,0
+Standard Class,Home Office,United States,Los Angeles,California,90004,West,Technology,Accessories,79.99,1,0.0,28.7964,0.36,79.99,0,0,0,0,0
+Standard Class,Consumer,United States,Oklahoma City,Oklahoma,73120,Central,Office Supplies,Binders,33.48,2,0.0,16.4052,0.49,16.74,0,0,0,0,0
+Standard Class,Corporate,United States,Vineland,New Jersey,08360,East,Furniture,Chairs,212.94,3,0.0,25.5528,0.12,70.98,0,0,0,0,0
+Standard Class,Consumer,United States,Minneapolis,Minnesota,55407,Central,Furniture,Furnishings,123.96,3,0.0,11.1564,0.09,41.32,0,0,0,0,0
+Standard Class,Home Office,United States,Los Angeles,California,90008,West,Office Supplies,Art,21.4,5,0.0,6.206,0.29,4.28,0,0,0,0,0
+Second Class,Consumer,United States,Houston,Texas,77070,Central,Furniture,Tables,401.59,2,0.3,-131.951,-0.3286,286.85,1,0,0,0,0
+Standard Class,Corporate,United States,Philadelphia,Pennsylvania,19120,East,Technology,Phones,466.158,7,0.4,-93.2316,-0.2,110.99,1,0,0,0,1
+Standard Class,Corporate,United States,Lafayette,Louisiana,70506,South,Office Supplies,Paper,19.44,3,0.0,9.3312,0.48,6.48,0,0,0,0,0
+Standard Class,Home Office,United States,New York City,New York,10009,East,Office Supplies,Appliances,58.73,7,0.0,14.6825,0.25,8.39,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90045,West,Office Supplies,Storage,139.04,4,0.0,38.9312,0.28,34.76,0,0,0,0,0
+Second Class,Corporate,United States,Peoria,Arizona,85345,West,Technology,Phones,68.72,2,0.2,-14.603,-0.2125,42.95,1,0,0,0,0
+First Class,Consumer,United States,San Francisco,California,94109,West,Office Supplies,Binders,53.248,2,0.2,19.968,0.375,33.28,0,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90036,West,Furniture,Furnishings,37.68,2,0.0,15.8256,0.42,18.84,0,0,0,0,0
+Second Class,Consumer,United States,Fresno,California,93727,West,Office Supplies,Binders,14.624,2,0.2,5.1184,0.35,9.14,0,0,0,0,0
+Second Class,Corporate,United States,Bethlehem,Pennsylvania,18018,East,Furniture,Furnishings,33.568,2,0.2,-5.4548,-0.1625,20.98,1,0,0,0,0
+Standard Class,Corporate,United States,Fayetteville,Arkansas,72701,South,Technology,Accessories,44.75,5,0.0,8.5025,0.19,8.95,0,0,0,0,0
+Standard Class,Home Office,United States,Odessa,Texas,79762,Central,Furniture,Chairs,340.116,6,0.3,-9.7176,-0.0286,80.98,1,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98105,West,Office Supplies,Storage,15.84,3,0.0,0.0,0.0,5.28,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77036,Central,Office Supplies,Paper,17.904,2,0.2,6.2664,0.35,11.19,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77036,Central,Office Supplies,Paper,182.112,6,0.2,61.4628,0.3375,37.94,0,0,0,1,1
+Standard Class,Corporate,United States,Seattle,Washington,98105,West,Office Supplies,Binders,26.976,4,0.2,8.7672,0.325,8.43,0,0,0,0,0
+Standard Class,Corporate,United States,Scottsdale,Arizona,85254,West,Office Supplies,Paper,307.776,7,0.2,111.5688,0.3625,54.96,0,0,0,1,1
+Second Class,Consumer,United States,Los Angeles,California,90045,West,Office Supplies,Storage,725.84,4,0.0,210.4936,0.29,181.46,0,0,0,0,1
+Standard Class,Consumer,United States,Houston,Texas,77041,Central,Technology,Phones,151.192,1,0.2,13.2293,0.0875,188.99,0,0,0,0,0
+Standard Class,Corporate,United States,Houston,Texas,77041,Central,Office Supplies,Paper,10.368,2,0.2,3.6288,0.35,6.48,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98103,West,Office Supplies,Art,31.44,3,0.0,7.86,0.25,10.48,0,0,0,0,0
+Standard Class,Corporate,United States,Wilmington,Delaware,19805,East,Office Supplies,Labels,22.5,6,0.0,10.8,0.48,3.75,0,0,0,0,0
+Standard Class,Consumer,United States,Clovis,New Mexico,88101,West,Office Supplies,Binders,10.08,7,0.2,3.528,0.35,1.8,0,0,0,0,0
+First Class,Consumer,United States,Houston,Texas,77041,Central,Technology,Phones,150.384,2,0.2,15.0384,0.1,93.99,0,0,0,0,0
+Standard Class,Home Office,United States,Olathe,Kansas,66062,Central,Furniture,Furnishings,40.56,2,0.0,12.9792,0.32,20.28,0,0,0,0,0
+First Class,Home Office,United States,San Diego,California,92105,West,Office Supplies,Paper,19.44,3,0.0,9.3312,0.48,6.48,0,0,0,0,0
+Same Day,Home Office,United States,San Francisco,California,94122,West,Furniture,Bookcases,411.332,4,0.15,-4.8392,-0.0118,120.98,1,0,0,0,0
+Second Class,Corporate,United States,Montgomery,Alabama,36116,South,Furniture,Furnishings,10.16,2,0.0,3.4544,0.34,5.08,0,0,0,0,0
+Second Class,Corporate,United States,Atlanta,Georgia,30318,South,Office Supplies,Binders,64.12,4,0.0,30.7776,0.48,16.03,0,0,0,0,0
+Standard Class,Home Office,United States,Clinton,Maryland,20735,East,Furniture,Furnishings,19.98,1,0.0,8.5914,0.43,19.98,0,0,0,0,0
+Second Class,Corporate,United States,Houston,Texas,77041,Central,Office Supplies,Storage,14.16,1,0.2,1.062,0.075,17.7,0,0,0,0,0
+First Class,Consumer,United States,Cincinnati,Ohio,45231,East,Technology,Accessories,53.04,3,0.2,-4.641,-0.0875,22.1,1,0,0,0,0
+Second Class,Corporate,United States,Roswell,Georgia,30076,South,Office Supplies,Envelopes,17.94,3,0.0,8.7906,0.49,5.98,0,0,0,0,0
+Second Class,Consumer,United States,Pocatello,Idaho,83201,West,Technology,Phones,140.376,3,0.2,8.7735,0.0625,58.49,0,0,0,0,0
+Standard Class,Corporate,United States,Dallas,Texas,75081,Central,Office Supplies,Envelopes,15.84,2,0.2,5.544,0.35,9.9,0,0,0,0,0
+First Class,Home Office,United States,Cleveland,Ohio,44105,East,Office Supplies,Envelopes,40.752,3,0.2,15.282,0.375,16.98,0,0,0,0,0
+Standard Class,Consumer,United States,Marion,Ohio,43302,East,Furniture,Tables,136.53,1,0.4,-52.3365,-0.3833,227.55,1,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90049,West,Office Supplies,Paper,19.36,2,0.0,9.2928,0.48,9.68,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94109,West,Office Supplies,Binders,38.376,3,0.2,13.4316,0.35,15.99,0,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Office Supplies,Appliances,7.77,1,0.0,2.0979,0.27,7.77,0,0,0,0,0
+Standard Class,Consumer,United States,Richmond,Indiana,47374,Central,Furniture,Chairs,29.98,1,0.0,8.0946,0.27,29.98,0,0,0,0,0
+Standard Class,Consumer,United States,Miami,Florida,33178,South,Office Supplies,Binders,38.52,3,0.7,-26.964,-0.7,42.8,1,1,0,0,0
+Standard Class,Consumer,United States,Bloomington,Indiana,47401,Central,Furniture,Furnishings,127.95,3,0.0,21.7515,0.17,42.65,0,0,0,0,0
+Standard Class,Corporate,United States,Westfield,New Jersey,07090,East,Furniture,Furnishings,31.56,3,0.0,10.4148,0.33,10.52,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Labels,87.71,7,0.0,41.2237,0.47,12.53,0,0,0,1,1
+Standard Class,Consumer,United States,New York City,New York,10035,East,Technology,Accessories,659.9,2,0.0,217.767,0.33,329.95,0,0,0,1,1
+Standard Class,Consumer,United States,Plano,Texas,75023,Central,Office Supplies,Labels,13.216,4,0.2,4.2952,0.325,4.13,0,0,0,0,0
+Same Day,Corporate,United States,Southaven,Mississippi,38671,South,Office Supplies,Envelopes,42.68,4,0.0,19.6328,0.46,10.67,0,0,0,0,0
+First Class,Home Office,United States,New York City,New York,10009,East,Office Supplies,Paper,81.98,2,0.0,40.1702,0.49,40.99,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98115,West,Technology,Phones,71.96,5,0.2,25.186,0.35,17.99,0,0,0,0,0
+Standard Class,Corporate,United States,Miami,Florida,33142,South,Office Supplies,Binders,16.146,9,0.7,-12.9168,-0.8,5.98,1,1,0,0,0
+Standard Class,Consumer,United States,Milwaukee,Wisconsin,53209,Central,Office Supplies,Appliances,272.4,5,0.0,76.272,0.28,54.48,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77095,Central,Office Supplies,Art,23.616,9,0.2,2.6568,0.1125,3.28,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Technology,Accessories,72.64,2,0.0,21.792,0.3,36.32,0,0,0,0,0
+Standard Class,Consumer,United States,Grand Prairie,Texas,75051,Central,Technology,Accessories,65.44,5,0.2,-8.18,-0.125,16.36,1,0,0,0,0
+Standard Class,Consumer,United States,Lebanon,Tennessee,37087,South,Office Supplies,Paper,163.96,5,0.2,59.4355,0.3625,40.99,0,0,0,1,1
+Second Class,Consumer,United States,San Francisco,California,94109,West,Technology,Phones,201.584,2,0.2,12.599,0.0625,125.99,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77036,Central,Office Supplies,Paper,117.456,3,0.2,44.046,0.375,48.94,0,0,0,0,0
+Second Class,Corporate,United States,New York City,New York,10035,East,Office Supplies,Binders,34.248,3,0.2,11.5587,0.3375,14.27,0,0,0,0,0
+First Class,Corporate,United States,New York City,New York,10035,East,Office Supplies,Binders,34.944,6,0.2,11.7936,0.3375,7.28,0,0,0,0,0
+Standard Class,Consumer,United States,Hendersonville,Tennessee,37075,South,Furniture,Furnishings,72.704,4,0.2,19.0848,0.2625,22.72,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Indiana,47201,Central,Office Supplies,Appliances,465.16,2,0.0,120.9416,0.26,232.58,0,0,0,0,0
+First Class,Consumer,United States,Chicago,Illinois,60623,Central,Office Supplies,Appliances,2.394,1,0.8,-6.3441,-2.65,11.97,1,1,1,0,0
+Second Class,Corporate,United States,Eugene,Oregon,97405,West,Office Supplies,Paper,47.952,3,0.2,16.7832,0.35,19.98,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94109,West,Office Supplies,Supplies,35.06,2,0.0,10.518,0.3,17.53,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98103,West,Office Supplies,Paper,6.48,1,0.0,3.1104,0.48,6.48,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10011,East,Furniture,Furnishings,396.92,4,0.0,198.46,0.5,99.23,0,0,0,1,1
+Standard Class,Consumer,United States,Jacksonville,North Carolina,28540,South,Furniture,Tables,945.036,6,0.4,-299.2614,-0.3167,262.51,1,0,0,0,0
+Standard Class,Corporate,United States,New York City,New York,10024,East,Office Supplies,Paper,37.94,2,0.0,18.2112,0.48,18.97,0,0,0,0,0
+Standard Class,Consumer,United States,Pembroke Pines,Florida,33024,South,Furniture,Bookcases,241.568,2,0.2,0.0,0.0,150.98,0,0,0,0,0
+First Class,Corporate,United States,Arlington,Texas,76017,Central,Office Supplies,Appliances,33.62,5,0.8,-90.774,-2.7,33.62,1,1,1,0,1
+Second Class,Consumer,United States,New York City,New York,10024,East,Office Supplies,Binders,33.568,2,0.2,11.7488,0.35,20.98,0,0,0,0,0
+Standard Class,Consumer,United States,Santa Ana,California,92704,West,Technology,Machines,371.976,3,0.2,116.2425,0.3125,154.99,0,0,0,0,0
+First Class,Consumer,United States,Los Angeles,California,90045,West,Office Supplies,Paper,219.84,4,0.0,107.7216,0.49,54.96,0,0,0,1,1
+Standard Class,Home Office,United States,Gilbert,Arizona,85234,West,Furniture,Furnishings,68.704,2,0.2,16.3172,0.2375,42.94,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10024,East,Office Supplies,Binders,415.176,3,0.2,134.9322,0.325,172.99,0,0,0,1,1
+Second Class,Consumer,United States,Philadelphia,Pennsylvania,19143,East,Furniture,Furnishings,20.096,4,0.2,3.0144,0.15,6.28,0,0,0,0,0
+First Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Office Supplies,Binders,3.882,2,0.7,-2.588,-0.6667,6.47,1,1,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90008,West,Furniture,Chairs,218.352,3,0.2,-19.1058,-0.0875,90.98,1,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90004,West,Technology,Phones,91.96,5,0.2,-20.691,-0.225,22.99,1,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90004,West,Technology,Accessories,254.97,3,0.0,91.7892,0.36,84.99,0,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90004,West,Technology,Phones,31.984,2,0.2,-7.996,-0.25,19.99,1,0,0,0,0
+Standard Class,Consumer,United States,Minneapolis,Minnesota,55407,Central,Furniture,Chairs,2567.84,8,0.0,770.352,0.3,320.98,0,0,0,1,1
+Standard Class,Corporate,United States,Columbus,Georgia,31907,South,Office Supplies,Paper,244.55,5,0.0,114.9385,0.47,48.91,0,0,0,1,1
+Same Day,Corporate,United States,Trenton,Michigan,48183,Central,Office Supplies,Binders,41.28,2,0.0,19.8144,0.48,20.64,0,0,0,0,0
+Second Class,Corporate,United States,El Paso,Texas,79907,Central,Technology,Accessories,95.976,3,0.2,-10.7973,-0.1125,39.99,1,0,0,0,0
+Standard Class,Corporate,United States,New York City,New York,10009,East,Office Supplies,Storage,713.88,4,0.0,214.164,0.3,178.47,0,0,0,0,1
+Standard Class,Corporate,United States,Newark,Delaware,19711,East,Office Supplies,Binders,11.12,4,0.0,5.4488,0.49,2.78,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Georgia,31907,South,Office Supplies,Binders,36.4,5,0.0,17.108,0.47,7.28,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Georgia,31907,South,Furniture,Furnishings,51.75,1,0.0,15.525,0.3,51.75,0,0,0,0,0
+Second Class,Corporate,United States,Columbia,South Carolina,29203,South,Office Supplies,Paper,60.12,9,0.0,28.8576,0.48,6.68,0,0,0,0,0
+Standard Class,Consumer,United States,Detroit,Michigan,48227,Central,Office Supplies,Art,11.96,2,0.0,2.99,0.25,5.98,0,0,0,0,0
+First Class,Corporate,United States,Louisville,Kentucky,40214,South,Office Supplies,Appliances,208.44,3,0.0,62.532,0.3,69.48,0,0,0,0,0
+Standard Class,Consumer,United States,Denver,Colorado,80219,West,Office Supplies,Supplies,6.8,1,0.2,0.51,0.075,8.5,0,0,0,0,0
+Same Day,Consumer,United States,Anaheim,California,92804,West,Office Supplies,Binders,122.688,9,0.2,39.8736,0.325,17.04,0,0,0,1,0
+Same Day,Consumer,United States,Anaheim,California,92804,West,Furniture,Tables,892.136,7,0.2,111.517,0.125,159.31,0,0,0,0,0
+Same Day,Consumer,United States,Anaheim,California,92804,West,Office Supplies,Binders,5.872,2,0.2,2.1286,0.3625,3.67,0,0,0,0,0
+Standard Class,Consumer,United States,Mcallen,Texas,78501,Central,Office Supplies,Binders,4.752,4,0.8,-8.316,-1.75,5.94,1,1,1,0,0
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Supplies,54.9,5,0.0,15.372,0.28,10.98,0,0,0,0,0
+First Class,Corporate,United States,Henderson,Nevada,89015,West,Furniture,Tables,1685.88,6,0.0,320.3172,0.19,280.98,0,0,0,0,1
+Standard Class,Consumer,United States,Seattle,Washington,98105,West,Furniture,Bookcases,141.96,2,0.0,41.1684,0.29,70.98,0,0,0,0,0
+Second Class,Consumer,United States,Columbus,Georgia,31907,South,Furniture,Furnishings,275.88,6,0.0,46.8996,0.17,45.98,0,0,0,1,0
+First Class,Consumer,United States,Providence,Rhode Island,02908,East,Office Supplies,Storage,69.52,2,0.0,17.38,0.25,34.76,0,0,0,0,0
+Standard Class,Consumer,United States,Baltimore,Maryland,21215,East,Technology,Phones,89.97,3,0.0,25.1916,0.28,29.99,0,0,0,0,0
+First Class,Corporate,United States,Phoenix,Arizona,85023,West,Office Supplies,Art,2.912,2,0.2,0.91,0.3125,1.82,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98115,West,Office Supplies,Paper,30.18,3,0.0,13.8828,0.46,10.06,0,0,0,0,0
+Standard Class,Corporate,United States,Philadelphia,Pennsylvania,19134,East,Office Supplies,Paper,123.92,5,0.2,38.725,0.3125,30.98,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90032,West,Office Supplies,Storage,354.9,5,0.0,17.745,0.05,70.98,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94110,West,Technology,Accessories,46.36,4,0.0,15.2988,0.33,11.59,0,0,0,0,0
+First Class,Consumer,United States,Des Plaines,Illinois,60016,Central,Office Supplies,Binders,2.892,3,0.8,-4.9164,-1.7,4.82,1,1,1,0,0
+Standard Class,Home Office,United States,Burbank,California,91505,West,Technology,Machines,1279.968,4,0.2,415.9896,0.325,399.99,0,0,0,0,0
+Second Class,Corporate,United States,New York City,New York,10035,East,Furniture,Chairs,192.186,3,0.1,36.3018,0.1889,71.18,0,0,0,0,0
+Standard Class,Consumer,United States,Atlanta,Georgia,30318,South,Office Supplies,Labels,162.89,13,0.0,76.5583,0.47,12.53,0,0,0,1,1
+Standard Class,Consumer,United States,Atlanta,Georgia,30318,South,Furniture,Furnishings,25.71,3,0.0,9.2556,0.36,8.57,0,0,0,0,0
+Second Class,Consumer,United States,Long Beach,California,90805,West,Office Supplies,Supplies,110.11,7,0.0,31.9319,0.29,15.73,0,0,0,0,1
+Standard Class,Corporate,United States,Los Angeles,California,90032,West,Furniture,Furnishings,167.84,8,0.0,11.7488,0.07,20.98,0,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10011,East,Technology,Accessories,99.98,2,0.0,7.9984,0.08,49.99,0,0,0,0,0
+Standard Class,Home Office,United States,Tigard,Oregon,97224,West,Technology,Phones,156.792,1,0.2,17.6391,0.1125,195.99,0,0,0,0,0
+Second Class,Corporate,United States,Covington,Washington,98042,West,Furniture,Furnishings,46.9,5,0.0,13.132,0.28,9.38,0,0,0,0,0
+First Class,Corporate,United States,San Diego,California,92105,West,Office Supplies,Labels,18.9,3,0.0,8.694,0.46,6.3,0,0,0,0,0
+Second Class,Home Office,United States,Houston,Texas,77036,Central,Furniture,Chairs,318.43,5,0.3,-77.333,-0.2429,90.98,1,0,0,0,0
+Standard Class,Consumer,United States,Chicago,Illinois,60623,Central,Office Supplies,Labels,9.248,4,0.2,3.1212,0.3375,2.89,0,0,0,0,0
+First Class,Consumer,United States,Waynesboro,Virginia,22980,South,Technology,Phones,569.64,2,0.0,148.1064,0.26,284.82,0,0,0,0,0
+Standard Class,Consumer,United States,Visalia,California,93277,West,Office Supplies,Art,14.88,2,0.0,3.72,0.25,7.44,0,0,0,0,0
+Standard Class,Home Office,United States,Henderson,Kentucky,42420,South,Office Supplies,Fasteners,31.12,4,0.0,0.3112,0.01,7.78,0,0,0,0,0
+Same Day,Consumer,United States,Los Angeles,California,90036,West,Office Supplies,Art,6.08,2,0.0,2.0672,0.34,3.04,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Ohio,43229,East,Furniture,Furnishings,396.92,5,0.2,148.845,0.375,99.23,0,0,0,1,1
+Same Day,Corporate,United States,San Francisco,California,94109,West,Office Supplies,Binders,17.04,3,0.2,5.538,0.325,7.1,0,0,0,0,0
+Standard Class,Corporate,United States,Denver,Colorado,80219,West,Office Supplies,Binders,36.624,8,0.7,-24.416,-0.6667,15.26,1,1,0,0,0
+Standard Class,Corporate,United States,Denver,Colorado,80219,West,Technology,Phones,49.616,2,0.2,4.9616,0.1,31.01,0,0,0,0,0
+Standard Class,Consumer,United States,Chicago,Illinois,60623,Central,Furniture,Furnishings,5.584,2,0.6,-1.6752,-0.3,6.98,1,1,0,0,0
+First Class,Consumer,United States,Dallas,Texas,75220,Central,Office Supplies,Storage,264.32,2,0.2,19.824,0.075,165.2,0,0,0,0,0
+First Class,Home Office,United States,Brownsville,Texas,78521,Central,Furniture,Chairs,127.302,7,0.3,-9.093,-0.0714,25.98,1,0,0,0,0
+Second Class,Consumer,United States,Louisville,Kentucky,40214,South,Furniture,Chairs,258.75,3,0.0,77.625,0.3,86.25,0,0,0,0,0
+Standard Class,Home Office,United States,Providence,Rhode Island,02908,East,Furniture,Chairs,605.88,6,0.0,151.47,0.25,100.98,0,0,0,0,0
+Standard Class,Corporate,United States,Jackson,Michigan,49201,Central,Technology,Accessories,160.0,8,0.0,62.4,0.39,20.0,0,0,0,0,0
+First Class,Corporate,United States,Suffolk,Virginia,23434,South,Office Supplies,Paper,12.96,2,0.0,6.2208,0.48,6.48,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19120,East,Technology,Accessories,40.776,3,0.2,0.5097,0.0125,16.99,0,0,0,0,0
+Second Class,Consumer,United States,Fayetteville,North Carolina,28314,South,Office Supplies,Storage,147.184,2,0.2,-29.4368,-0.2,91.99,1,0,0,0,0
+First Class,Consumer,United States,Los Angeles,California,90032,West,Office Supplies,Appliances,250.26,6,0.0,72.5754,0.29,41.71,0,0,0,0,0
+Standard Class,Consumer,United States,Baltimore,Maryland,21215,East,Technology,Phones,89.95,5,0.0,43.176,0.48,17.99,0,0,0,0,0
+Second Class,Corporate,United States,Buffalo,New York,14215,East,Furniture,Furnishings,154.95,3,0.0,30.99,0.2,51.65,0,0,0,0,0
+Standard Class,Consumer,United States,Memphis,Tennessee,38109,South,Office Supplies,Paper,42.208,2,0.2,13.7176,0.325,26.38,0,0,0,0,0
+Standard Class,Consumer,United States,Columbus,Georgia,31907,South,Office Supplies,Envelopes,74.52,9,0.0,35.0244,0.47,8.28,0,0,0,0,0
+First Class,Consumer,United States,Chicago,Illinois,60653,Central,Office Supplies,Binders,2.89,1,0.8,-4.7685,-1.65,14.45,1,1,1,0,0
+Standard Class,Home Office,United States,Franklin,Tennessee,37064,South,Office Supplies,Binders,3.204,2,0.7,-2.5632,-0.8,5.34,1,1,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98103,West,Office Supplies,Labels,12.6,2,0.0,5.796,0.46,6.3,0,0,0,0,0
+Standard Class,Consumer,United States,Arlington,Virginia,22204,South,Technology,Phones,1871.88,12,0.0,561.564,0.3,155.99,0,0,0,1,1
+First Class,Corporate,United States,New York City,New York,10024,East,Office Supplies,Paper,39.96,4,0.0,17.982,0.45,9.99,0,0,0,0,0
+Standard Class,Consumer,United States,Morgan Hill,California,95037,West,Furniture,Tables,268.704,3,0.2,6.7176,0.025,111.96,0,0,0,0,0
+Second Class,Corporate,United States,New York City,New York,10035,East,Technology,Phones,569.99,1,0.0,170.997,0.3,569.99,0,0,0,0,1
+Standard Class,Consumer,United States,Dallas,Texas,75081,Central,Office Supplies,Binders,40.98,5,0.8,-65.568,-1.6,40.98,1,1,1,0,1
+Standard Class,Corporate,United States,Chico,California,95928,West,Furniture,Furnishings,72.9,5,0.0,26.973,0.37,14.58,0,0,0,0,0
+Second Class,Corporate,United States,Miramar,Florida,33023,South,Office Supplies,Paper,41.472,8,0.2,14.5152,0.35,6.48,0,0,0,0,0
+Standard Class,Consumer,United States,Houston,Texas,77095,Central,Office Supplies,Paper,16.448,2,0.2,5.5512,0.3375,10.28,0,0,0,0,0
+Second Class,Corporate,United States,Chicago,Illinois,60623,Central,Office Supplies,Art,7.872,3,0.2,0.8856,0.1125,3.28,0,0,0,0,0
+Standard Class,Consumer,United States,Oklahoma City,Oklahoma,73120,Central,Furniture,Chairs,1323.9,5,0.0,383.931,0.29,264.78,0,0,0,0,1
+Same Day,Consumer,United States,New York City,New York,10009,East,Technology,Accessories,120.0,8,0.0,13.2,0.11,15.0,0,0,0,0,0
+Standard Class,Corporate,United States,Dallas,Texas,75217,Central,Office Supplies,Appliances,4.992,3,0.8,-12.9792,-2.6,8.32,1,1,1,0,0
+Standard Class,Consumer,United States,Amarillo,Texas,79109,Central,Office Supplies,Paper,25.92,5,0.2,9.072,0.35,6.48,0,0,0,0,0
+Standard Class,Home Office,United States,Cambridge,Massachusetts,02138,East,Technology,Accessories,63.88,4,0.0,24.9132,0.39,15.97,0,0,0,0,0
+Standard Class,Consumer,United States,Huntsville,Texas,77340,Central,Office Supplies,Appliances,15.224,2,0.8,-38.8212,-2.55,38.06,1,1,1,0,0
+Standard Class,Corporate,United States,Springfield,Oregon,97477,West,Office Supplies,Paper,131.904,3,0.2,47.8152,0.3625,54.96,0,0,0,0,0
+Standard Class,Consumer,United States,Albuquerque,New Mexico,87105,West,Office Supplies,Storage,118.25,5,0.0,34.2925,0.29,23.65,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90045,West,Office Supplies,Labels,8.26,2,0.0,3.7996,0.46,4.13,0,0,0,0,0
+Standard Class,Consumer,United States,Los Angeles,California,90045,West,Technology,Machines,2973.32,7,0.2,334.4985,0.1125,530.95,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Furniture,Chairs,215.544,4,0.3,-58.5048,-0.2714,76.98,1,0,0,0,0
+First Class,Consumer,United States,Seattle,Washington,98115,West,Technology,Copiers,13999.96,4,0.0,6719.9808,0.48,3499.99,0,0,0,1,1
+Standard Class,Consumer,United States,Knoxville,Tennessee,37918,South,Office Supplies,Art,71.96,5,0.2,7.196,0.1,17.99,0,0,0,0,0
+Standard Class,Consumer,United States,Dallas,Texas,75217,Central,Office Supplies,Fasteners,15.072,4,0.2,-3.768,-0.25,4.71,1,0,0,0,0
+Standard Class,Consumer,United States,Jacksonville,Florida,32216,South,Furniture,Tables,933.262,4,0.45,-458.1468,-0.4909,424.21,1,0,0,0,1
+Standard Class,Consumer,United States,New York City,New York,10035,East,Office Supplies,Binders,35.448,7,0.2,12.8499,0.3625,6.33,0,0,0,0,0
+Second Class,Home Office,United States,Springfield,Ohio,45503,East,Office Supplies,Art,3.424,1,0.2,0.2996,0.0875,4.28,0,0,0,0,0
+Same Day,Home Office,United States,San Francisco,California,94122,West,Office Supplies,Art,37.17,9,0.0,11.151,0.3,4.13,0,0,0,0,0
+Standard Class,Home Office,United States,San Francisco,California,94110,West,Office Supplies,Appliances,87.36,6,0.0,23.5872,0.27,14.56,0,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10009,East,Furniture,Chairs,164.646,3,0.1,12.8058,0.0778,60.98,0,0,0,0,0
+Standard Class,Consumer,United States,Lakewood,New Jersey,08701,East,Furniture,Furnishings,40.48,2,0.0,17.4064,0.43,20.24,0,0,0,0,0
+Standard Class,Consumer,United States,Seattle,Washington,98105,West,Office Supplies,Binders,136.96,4,0.2,51.36,0.375,42.8,0,0,0,1,1
+Standard Class,Home Office,United States,Philadelphia,Pennsylvania,19120,East,Technology,Phones,68.238,3,0.4,-12.5103,-0.1833,37.91,1,0,0,0,0
+Standard Class,Consumer,United States,Norwich,Connecticut,06360,East,Office Supplies,Appliances,370.14,3,0.0,144.3546,0.39,123.38,0,0,0,0,1
+Standard Class,Corporate,United States,Columbus,Georgia,31907,South,Furniture,Furnishings,39.92,4,0.0,11.1776,0.28,9.98,0,0,0,0,0
+Second Class,Corporate,United States,Milwaukee,Wisconsin,53209,Central,Furniture,Chairs,1454.9,5,0.0,378.274,0.26,290.98,0,0,0,1,1
+Second Class,Consumer,United States,Port Saint Lucie,Florida,34952,South,Office Supplies,Appliances,14.336,4,0.2,0.896,0.0625,4.48,0,0,0,0,0
+Standard Class,Corporate,United States,San Antonio,Texas,78207,Central,Technology,Phones,180.96,5,0.2,13.572,0.075,45.24,0,0,0,0,0
+Standard Class,Consumer,United States,Phoenix,Arizona,85023,West,Office Supplies,Storage,39.808,4,0.2,3.9808,0.1,12.44,0,0,0,0,0
+Same Day,Consumer,United States,Seattle,Washington,98103,West,Office Supplies,Paper,48.94,1,0.0,24.47,0.5,48.94,0,0,0,0,0
+Standard Class,Consumer,United States,Decatur,Illinois,62521,Central,Office Supplies,Art,28.032,6,0.2,3.504,0.125,5.84,0,0,0,0,0
+Standard Class,Home Office,United States,Arlington,Virginia,22204,South,Technology,Accessories,47.79,3,0.0,16.2486,0.34,15.93,0,0,0,0,0
+Second Class,Home Office,United States,San Francisco,California,94109,West,Furniture,Tables,300.904,1,0.2,11.2839,0.0375,376.13,0,0,0,0,0
+Standard Class,Corporate,United States,Nashville,Tennessee,37211,South,Office Supplies,Appliances,76.608,8,0.2,6.7032,0.0875,11.97,0,0,0,0,0
+Second Class,Home Office,United States,Houston,Texas,77070,Central,Office Supplies,Storage,67.536,9,0.2,6.7536,0.1,9.38,0,0,0,0,0
+Second Class,Home Office,United States,Miami,Florida,33178,South,Office Supplies,Paper,37.408,7,0.2,13.0928,0.35,6.68,0,0,0,0,0
+First Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Office Supplies,Art,13.248,4,0.2,3.6432,0.275,4.14,0,0,0,0,0
+Same Day,Home Office,United States,Lawrence,Indiana,46226,Central,Office Supplies,Binders,10.74,3,0.0,5.1552,0.48,3.58,0,0,0,0,0
+First Class,Consumer,United States,Hillsboro,Oregon,97123,West,Furniture,Furnishings,11.032,1,0.2,3.0338,0.275,13.79,0,0,0,0,0
+First Class,Consumer,United States,Hillsboro,Oregon,97123,West,Technology,Accessories,53.04,3,0.2,-4.641,-0.0875,22.1,1,0,0,0,0
+First Class,Corporate,United States,Raleigh,North Carolina,27604,South,Office Supplies,Appliances,942.784,4,0.2,94.2784,0.1,294.62,0,0,0,1,0
+Standard Class,Corporate,United States,New York City,New York,10024,East,Furniture,Bookcases,287.976,3,0.2,7.1994,0.025,119.99,0,0,0,0,0
+First Class,Consumer,United States,Oklahoma City,Oklahoma,73120,Central,Furniture,Bookcases,341.96,2,0.0,54.7136,0.16,170.98,0,0,0,0,0
+First Class,Corporate,United States,New York City,New York,10035,East,Office Supplies,Labels,18.9,3,0.0,8.694,0.46,6.3,0,0,0,0,0
+Standard Class,Consumer,United States,Salt Lake City,Utah,84106,West,Office Supplies,Binders,102.72,3,0.2,37.236,0.3625,42.8,0,0,0,0,0
+Standard Class,Home Office,United States,Harrisonburg,Virginia,22801,South,Furniture,Furnishings,39.96,2,0.0,14.3856,0.36,19.98,0,0,0,0,0
+Second Class,Corporate,United States,Los Angeles,California,90004,West,Office Supplies,Art,70.95,3,0.0,18.447,0.26,23.65,0,0,0,0,0
+Standard Class,Consumer,United States,Morristown,New Jersey,07960,East,Technology,Machines,480.0,4,0.0,225.6,0.47,120.0,0,0,0,0,0
+Standard Class,Corporate,United States,Green Bay,Wisconsin,54302,Central,Furniture,Furnishings,16.74,2,0.0,4.3524,0.26,8.37,0,0,0,0,0
+Standard Class,Consumer,United States,Chicago,Illinois,60623,Central,Office Supplies,Binders,1.728,4,0.8,-2.7648,-1.6,2.16,1,1,1,0,0
+Standard Class,Consumer,United States,Hollywood,Florida,33021,South,Furniture,Furnishings,337.088,4,0.2,16.8544,0.05,105.34,0,0,0,1,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Technology,Accessories,479.97,3,0.0,163.1898,0.34,159.99,0,0,0,0,1
+Second Class,Corporate,United States,Sunnyvale,California,94086,West,Technology,Accessories,149.95,5,0.0,31.4895,0.21,29.99,0,0,0,0,0
+Standard Class,Corporate,United States,Seattle,Washington,98103,West,Furniture,Tables,1115.17,7,0.0,334.551,0.3,159.31,0,0,0,0,1
+Second Class,Corporate,United States,Troy,Ohio,45373,East,Furniture,Bookcases,482.94,6,0.5,-376.6932,-0.78,160.98,1,1,0,0,1
+Standard Class,Consumer,United States,Houston,Texas,77041,Central,Office Supplies,Binders,32.06,10,0.8,-51.296,-1.6,16.03,1,1,1,0,1
+Standard Class,Consumer,United States,Westminster,California,92683,West,Technology,Phones,707.88,3,0.2,44.2425,0.0625,294.95,0,0,0,0,0
+Standard Class,Consumer,United States,Philadelphia,Pennsylvania,19140,East,Furniture,Chairs,398.972,2,0.3,-28.498,-0.0714,284.98,1,0,0,0,0
+Standard Class,Consumer,United States,Moreno Valley,California,92553,West,Furniture,Furnishings,41.96,2,0.0,10.9096,0.26,20.98,0,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10011,East,Furniture,Bookcases,801.568,2,0.2,-10.0196,-0.0125,500.98,1,0,0,0,0
+First Class,Consumer,United States,New York City,New York,10011,East,Office Supplies,Appliances,30.98,1,0.0,8.0548,0.26,30.98,0,0,0,0,0
+Standard Class,Consumer,United States,Newport News,Virginia,23602,South,Office Supplies,Envelopes,31.12,4,0.0,14.6264,0.47,7.78,0,0,0,0,0
+First Class,Home Office,United States,Chicago,Illinois,60653,Central,Technology,Machines,574.91,2,0.3,156.047,0.2714,410.65,0,0,0,0,0
+First Class,Home Office,United States,Chicago,Illinois,60653,Central,Office Supplies,Paper,8.448,2,0.2,2.64,0.3125,5.28,0,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10035,East,Furniture,Furnishings,12.07,1,0.0,3.9831,0.33,12.07,0,0,0,0,0
+Second Class,Consumer,United States,New York City,New York,10024,East,Furniture,Tables,166.5,2,0.4,-66.6,-0.4,138.75,1,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90049,West,Office Supplies,Storage,93.02,2,0.0,3.7208,0.04,46.51,0,0,0,0,0
+First Class,Consumer,United States,Newark,Ohio,43055,East,Furniture,Furnishings,51.968,2,0.2,10.3936,0.2,32.48,0,0,0,0,0
+Same Day,Consumer,United States,Columbus,Ohio,43229,East,Office Supplies,Art,17.12,5,0.2,1.926,0.1125,4.28,0,0,0,0,0
+Same Day,Consumer,United States,Pomona,California,91767,West,Furniture,Furnishings,31.56,3,0.0,10.4148,0.33,10.52,0,0,0,0,0
+Second Class,Consumer,United States,San Antonio,Texas,78207,Central,Furniture,Chairs,104.93,5,0.3,-4.497,-0.0429,29.98,1,0,0,0,0
+Standard Class,Home Office,United States,Philadelphia,Pennsylvania,19120,East,Office Supplies,Fasteners,9.648,6,0.2,3.4974,0.3625,2.01,0,0,0,0,0
+Standard Class,Consumer,United States,New York City,New York,10011,East,Technology,Phones,179.7,6,0.0,88.053,0.49,29.95,0,0,0,0,0
+Standard Class,Corporate,United States,San Francisco,California,94122,West,Office Supplies,Storage,323.1,2,0.0,61.389,0.19,161.55,0,0,0,0,1
+Standard Class,Consumer,United States,Houston,Texas,77041,Central,Furniture,Bookcases,613.9992,3,0.32,-18.0588,-0.0294,300.98,1,0,0,0,0
+Standard Class,Consumer,United States,San Luis Obispo,California,93405,West,Office Supplies,Fasteners,3.62,2,0.0,1.1946,0.33,1.81,0,0,0,0,0
+First Class,Consumer,United States,Lowell,Massachusetts,01852,East,Office Supplies,Supplies,4.36,2,0.0,0.1744,0.04,2.18,0,0,0,0,0
+Standard Class,Corporate,United States,Los Angeles,California,90032,West,Office Supplies,Storage,310.12,2,0.0,80.6312,0.26,155.06,0,0,0,0,1
+Second Class,Consumer,United States,Richmond,Virginia,23223,South,Office Supplies,Storage,332.94,3,0.0,9.9882,0.03,110.98,0,0,0,0,0
+Second Class,Consumer,United States,Richmond,Virginia,23223,South,Technology,Phones,206.1,5,0.0,55.647,0.27,41.22,0,0,0,0,0
+Standard Class,Corporate,United States,Toledo,Ohio,43615,East,Technology,Accessories,10.384,2,0.2,2.2066,0.2125,6.49,0,0,0,0,0
+Standard Class,Corporate,United States,Saint Petersburg,Florida,33710,South,Office Supplies,Binders,18.264,2,0.7,-13.3936,-0.7333,30.44,1,1,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94122,West,Office Supplies,Appliances,152.91,3,0.0,42.8148,0.28,50.97,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94109,West,Furniture,Furnishings,50.32,4,0.0,21.1344,0.42,12.58,0,0,0,0,0
+Second Class,Corporate,United States,New York City,New York,10009,East,Office Supplies,Appliances,13.11,3,0.0,3.4086,0.26,4.37,0,0,0,0,0
+Standard Class,Corporate,United States,Bryan,Texas,77803,Central,Furniture,Chairs,528.43,5,0.3,-143.431,-0.2714,150.98,1,0,0,0,1
+Same Day,Consumer,United States,San Francisco,California,94122,West,Technology,Copiers,2799.96,5,0.2,944.9865,0.3375,699.99,0,0,0,0,0
+Standard Class,Consumer,United States,San Francisco,California,94122,West,Technology,Accessories,223.58,14,0.0,87.1962,0.39,15.97,0,0,0,0,0
+Second Class,Corporate,United States,Los Angeles,California,90045,West,Office Supplies,Binders,55.264,2,0.2,20.724,0.375,34.54,0,0,0,0,0
+Standard Class,Consumer,United States,Grand Rapids,Michigan,49505,Central,Technology,Phones,97.98,2,0.0,27.4344,0.28,48.99,0,0,0,0,0
