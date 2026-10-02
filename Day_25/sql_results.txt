@@ -1,0 +1,159 @@
+-- SELECT COUNT(*) AS rows_raw, COUNT(DISTINCT order_id) AS distinct_orde...
+ rows_raw  distinct_orders first_order last_order
+      830              830  1996-07-04 1998-05-06
+
+-- SELECT SUM(shipped_date IS NULL OR shipped_date = '')    AS null_shipp...
+ null_shipped_date  null_region  null_postal  ship_before_order  negative_freight
+                21          507           19                  0                 0
+
+-- SELECT order_id, COUNT(*) FROM orders_raw GROUP BY order_id HAVING COU...
+Empty DataFrame
+Columns: [order_id, COUNT(*)]
+Index: []
+
+-- SELECT (SELECT COUNT(*) FROM orders_raw) AS raw_rows,        (SELECT C...
+ raw_rows  clean_rows  rowcount_match
+      830         830               1
+
+-- SELECT ROUND((SELECT SUM(freight) FROM orders_raw),2) AS raw_freight, ...
+ raw_freight  clean_freight
+    64942.69       64942.69
+
+-- SELECT ROUND(SUM(f),2) AS freight_by_country_total FROM (SELECT ship_c...
+ freight_by_country_total
+                 64942.69
+
+-- SELECT ROUND(SUM(f),2) AS freight_by_year_total    FROM (SELECT order_...
+ freight_by_year_total
+              64942.69
+
+-- SELECT SUM(n) AS orders_by_country_total FROM (SELECT COUNT(*) n FROM ...
+ orders_by_country_total
+                     830
+
+-- SELECT COUNT(DISTINCT order_id)                         AS total_order...
+ total_orders  active_customers  countries  total_freight  avg_freight_per_order  avg_days_to_ship  late_delivery_pct  open_orders
+          830                89         21       64942.69                  78.24               8.5                4.6           21
+
+-- WITH m AS (SELECT order_month, COUNT(*) AS orders FROM orders GROUP BY...
+order_month  orders  mom_pct
+    1996-07      22      NaN
+    1996-08      25     13.6
+    1996-09      23     -8.0
+    1996-10      26     13.0
+    1996-11      25     -3.8
+    1996-12      31     24.0
+    1997-01      33      6.5
+    1997-02      29    -12.1
+    1997-03      30      3.4
+    1997-04      31      3.3
+    1997-05      32      3.2
+    1997-06      30     -6.3
+    1997-07      33     10.0
+    1997-08      33      0.0
+    1997-09      37     12.1
+    1997-10      38      2.7
+    1997-11      34    -10.5
+    1997-12      48     41.2
+    1998-01      55     14.6
+    1998-02      54     -1.8
+    1998-03      73     35.2
+    1998-04      74      1.4
+    1998-05      14    -81.1
+
+-- SELECT order_year, COUNT(*) AS orders, COUNT(DISTINCT order_month) AS ...
+order_year  orders  months  orders_per_month
+      1996     152       6              25.3
+      1997     408      12              34.0
+      1998     270       5              54.0
+
+-- SELECT ship_country, COUNT(*) AS orders,        ROUND(100.0*COUNT(*)/S...
+ship_country  orders  pct_orders  cumulative_pct
+     Germany     122        14.7            14.7
+         USA     122        14.7            29.4
+      Brazil      83        10.0            39.4
+      France      77         9.3            48.7
+          UK      56         6.7            55.4
+   Venezuela      46         5.5            61.0
+     Austria      40         4.8            65.8
+      Sweden      37         4.5            70.2
+      Canada      30         3.6            73.9
+       Italy      28         3.4            77.2
+      Mexico      28         3.4            80.6
+       Spain      23         2.8            83.4
+     Finland      22         2.7            86.0
+     Belgium      19         2.3            88.3
+     Ireland      19         2.3            90.6
+     Denmark      18         2.2            92.8
+ Switzerland      18         2.2            94.9
+   Argentina      16         1.9            96.9
+    Portugal      13         1.6            98.4
+      Poland       7         0.8            99.3
+      Norway       6         0.7           100.0
+
+-- SELECT ship_country, COUNT(*) AS orders, ROUND(SUM(freight),2) AS tota...
+ship_country  orders  total_freight  avg_freight  pct_of_freight
+         USA     122       13771.29       112.88            21.2
+     Germany     122       11283.28        92.49            17.4
+     Austria      40        7391.50       184.79            11.4
+      Brazil      83        4880.19        58.80             7.5
+      France      77        4237.84        55.04             6.5
+      Sweden      37        3237.60        87.50             5.0
+          UK      56        2954.27        52.75             4.5
+     Ireland      19        2755.24       145.01             4.2
+   Venezuela      46        2735.18        59.46             4.2
+      Canada      30        2198.09        73.27             3.4
+     Denmark      18        1396.19        77.57             2.1
+ Switzerland      18        1368.53        76.03             2.1
+     Belgium      19        1280.14        67.38             2.0
+      Mexico      28        1122.78        40.10             1.7
+     Finland      22         910.89        41.40             1.4
+       Italy      28         864.44        30.87             1.3
+       Spain      23         861.89        37.47             1.3
+    Portugal      13         643.53        49.50             1.0
+   Argentina      16         598.58        37.41             0.9
+      Norway       6         275.50        45.92             0.4
+      Poland       7         175.74        25.11             0.3
+
+-- WITH c AS (SELECT customer_id, COUNT(*) AS orders, SUM(freight) AS fre...
+customer_id  orders  freight  pct_orders  rnk
+      SAVEA      31  6683.70         3.7    1
+      ERNSH      30  6205.39         3.6    2
+      QUICK      28  5605.63         3.4    3
+      FOLKO      19  1678.08         2.3    4
+      HUNGO      19  2755.24         2.3    4
+      BERGS      18  1559.52         2.2    6
+      HILAA      18  1259.16         2.2    6
+      RATTC      18  2134.21         2.2    6
+      BONAP      17  1357.87         2.0    9
+      FRANK      15  1403.44         1.8   10
+
+-- SELECT shipper, COUNT(*) AS orders, ROUND(AVG(days_to_ship),1) AS avg_...
+         shipper  orders  avg_days  late_orders  avg_freight
+  United Package     326       9.2           16        86.64
+Federal Shipping     255       7.5            9        80.44
+  Speedy Express     249       8.6           12        65.00
+
+-- SELECT employee_id, COUNT(*) AS orders, SUM(is_late) AS late,        R...
+ employee_id  orders  late  late_pct  avg_days
+           9      43     4       9.5      10.9
+           4     156    10       6.6       8.8
+           7      72     4       5.8       8.4
+           6      67     3       4.6       9.1
+           2      96     4       4.3       8.1
+           8     104     4       4.0       8.7
+           3     127     5       3.9       8.4
+           5      42     1       2.4       7.0
+           1     123     2       1.7       7.8
+
+-- SELECT ship_country, COUNT(*) AS shipped, SUM(is_late) AS late,       ...
+ship_country  shipped  late  late_pct
+     Ireland       19     3      15.8
+      Sweden       37     3       8.1
+    Portugal       13     1       7.7
+       Italy       27     2       7.4
+          UK       56     4       7.1
+
+-- SELECT MIN(order_date) AS oldest_open, MAX(order_date) AS newest_open,...
+oldest_open newest_open  open_orders
+ 1998-04-08  1998-05-06           21

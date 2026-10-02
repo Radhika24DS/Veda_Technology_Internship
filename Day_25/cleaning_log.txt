@@ -1,0 +1,8 @@
+Raw rows: 830
+Trimmed text columns; customer_id upper-cased
+Duplicate order_id removed: 0
+Unshipped orders (shipped_date null, kept & flagged): 21
+ship_region null -> 'Not Specified'; ship_postal_code null -> 'Not Specified'
+Ship before order date: 0; negative freight: 0
+Added: order_year, order_month, order_quarter, days_to_ship, days_late, is_late, is_shipped, shipper (ship_via 1/2/3 = standard Northwind shippers)
+Clean rows: 830
