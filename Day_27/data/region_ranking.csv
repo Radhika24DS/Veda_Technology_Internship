@@ -1,0 +1,5 @@
+Salesperson,Region,Sales,Profit,Profit Margin,Line Items,AOV (proxy),Avg Discount,% Loss-Making Lines,Expected Profit,Expected Margin,Margin Gap (pp),Composite Score,Rank (Composite),Rank (Sales only),Rank change vs sales-only
+Central Region Team,Central,500782.8528,39655.8752,0.0792,2319,215.9478,0.2403,0.3191,66381.7893,0.1326,-0.0534,6.5397,4,3,-1
+East Region Team,East,678435.196,91506.3092,0.1349,2845,238.4658,0.1453,0.194,87114.966,0.1284,0.0065,79.2722,2,2,0
+South Region Team,South,391721.905,46749.4303,0.1193,1620,241.8036,0.1473,0.1599,43019.8172,0.1098,0.0095,43.0826,3,4,1
+West Region Team,West,725255.6365,108329.8079,0.1494,3193,227.1393,0.1096,0.0996,89724.85,0.1237,0.0257,94.3284,1,1,0

@@ -1,0 +1,11 @@
+Step,Detail,Rows affected
+Load,Raw rows loaded,9994
+Missing values,Null cells found across all columns,0
+Text standardisation,"Trimmed whitespace, title-cased Region",9994
+Postal code,Stored as 5-digit text (leading zeros restored),449
+Duplicates,Fully identical rows removed (no Order ID exists to prove they are distinct orders),17
+Constant column,Dropped Country (always 'United States'),9977
+Validity,"Rows with Sales<=0, Quantity<=0 or Discount outside 0-1",0
+Derived columns,"Profit Margin, Loss Flag, Discount Band, Salesperson (Region Team), Salesperson (State Rep)",9977
+Outliers,Flagged (not removed) profit beyond 3xIQR,1168
+Final,Clean rows saved,9977

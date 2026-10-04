@@ -1,0 +1,130 @@
+// =====================================================================
+// Task 27 - Salesperson Performance - Power BI DAX measures
+// Fact table name assumed: Superstore   (data/superstore_clean.csv)
+// "Salesperson" column assumed: Superstore[Salesperson (Region Team)]
+//   -> for State Reps, use Superstore[Salesperson (State Rep)] instead
+//      (find & replace the column name in the 6 normalisation measures).
+// NOTE: DAX written for Power BI Desktop; not executed in the authoring
+//       environment - verify each number against the Excel workbook.
+// Create a separate table called "_Measures" (Enter Data -> blank) and
+// store every measure there so they are easy to find.
+// =====================================================================
+
+// ---------- 0. ONE CALCULATED COLUMN (Table tools > New column) ----------
+Expected Profit =
+Superstore[Sales]
+    * DIVIDE(
+        CALCULATE( SUM(Superstore[Profit]), ALLEXCEPT(Superstore, Superstore[Sub-Category]) ),
+        CALCULATE( SUM(Superstore[Sales]),  ALLEXCEPT(Superstore, Superstore[Sub-Category]) )
+      )
+
+// ---------- 1. BASE KPIs ----------
+Total Sales      = SUM ( Superstore[Sales] )
+Total Profit     = SUM ( Superstore[Profit] )
+Profit Margin    = DIVIDE ( [Total Profit], [Total Sales] )
+Line Items       = COUNTROWS ( Superstore )
+AOV (proxy)      = DIVIDE ( [Total Sales], [Line Items] )
+Avg Discount     = AVERAGE ( Superstore[Discount] )
+Loss Line %      = DIVIDE ( CALCULATE ( COUNTROWS ( Superstore ), Superstore[Profit] < 0 ), [Line Items] )
+High Discount %  = DIVIDE ( CALCULATE ( COUNTROWS ( Superstore ), Superstore[Discount] > 0.3 ), [Line Items] )
+Profit on >30% Discount = CALCULATE ( [Total Profit], Superstore[Discount] > 0.3 )
+
+// ---------- 2. TERRITORY-FAIR KPI ----------
+Expected Profit Total = SUM ( Superstore[Expected Profit] )
+Expected Margin       = DIVIDE ( [Expected Profit Total], [Total Sales] )
+Margin Gap (pp)       = [Profit Margin] - [Expected Margin]          // format as %
+
+// ---------- 3. SHARE OF COMPANY ----------
+Sales % of Total  = DIVIDE ( [Total Sales],  CALCULATE ( [Total Sales],  ALLSELECTED ( Superstore ) ) )
+Profit % of Total = DIVIDE ( [Total Profit], CALCULATE ( [Total Profit], ALLSELECTED ( Superstore ) ) )
+
+// ---------- 4. WEIGHTS ----------
+// Simple version (works immediately): constant measures.
+W Sales    = 20
+W Profit   = 25
+W Margin   = 20
+W AOV      = 10
+W Discount = 10
+W Gap      = 15
+// Growth weight = 0 (no date field in the dataset).
+// Interactive version (bonus feature): Modeling > New parameter > Numeric range
+// (0 to 100, step 5) for each weight, add the slicers to the page, then change
+// each measure above to point at the parameter, e.g.
+//   W Sales = 'Weight Sales'[Weight Sales Value]
+
+// ---------- 5. MIN-MAX NORMALISED KPIs (0..1 across the salespeople in view) ----------
+n Sales =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [Total Sales] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN DIVIDE ( [Total Sales] - mn, mx - mn )
+
+n Profit =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [Total Profit] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN DIVIDE ( [Total Profit] - mn, mx - mn )
+
+n Margin =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [Profit Margin] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN DIVIDE ( [Profit Margin] - mn, mx - mn )
+
+n AOV =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [AOV (proxy)] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN DIVIDE ( [AOV (proxy)] - mn, mx - mn )
+
+n Discount (inverted) =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [Avg Discount] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN 1 - DIVIDE ( [Avg Discount] - mn, mx - mn )
+
+n Margin Gap =
+VAR t   = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@v", [Margin Gap (pp)] )
+VAR mn  = MINX ( t, [@v] )
+VAR mx  = MAXX ( t, [@v] )
+RETURN DIVIDE ( [Margin Gap (pp)] - mn, mx - mn )
+
+// ---------- 6. COMPOSITE SCORE + RANK ----------
+Composite Score =
+VAR wTotal = [W Sales] + [W Profit] + [W Margin] + [W AOV] + [W Discount] + [W Gap]
+RETURN
+100 * DIVIDE (
+        [n Sales] * [W Sales] + [n Profit] * [W Profit] + [n Margin] * [W Margin]
+      + [n AOV] * [W AOV] + [n Discount (inverted)] * [W Discount] + [n Margin Gap] * [W Gap],
+        wTotal )
+
+Rank (Composite) =
+RANKX ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), [Composite Score], , DESC, Dense )
+
+Rank (Sales only) =
+RANKX ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), [Total Sales], , DESC, Dense )
+
+Rank Change vs Sales =
+[Rank (Sales only)] - [Rank (Composite)]        // + = looks better once profit & quality are considered
+
+// ---------- 7. PERFORMANCE LABEL (conditional formatting / text) ----------
+Performance Tier =
+SWITCH ( TRUE (),
+    [Composite Score] >= 75, "Star performer",
+    [Composite Score] >= 50, "On track",
+    [Composite Score] >= 25, "Needs coaching",
+    "At risk" )
+
+// ---------- 8. DYNAMIC TITLE / NARRATIVE ----------
+Top Performer =
+VAR t = ADDCOLUMNS ( ALLSELECTED ( Superstore[Salesperson (Region Team)] ), "@s", [Composite Score] )
+RETURN MAXX ( TOPN ( 1, t, [@s], DESC ), Superstore[Salesperson (Region Team)] )
+
+Dashboard Title =
+"Salesperson performance - top performer: " & [Top Performer] & " | Margin " & FORMAT ( [Profit Margin], "0.0%" )
+
+// ---------- 9. GROWTH (only if an Order Date column is added later) ----------
+// Sales YoY % =
+// VAR cur = [Total Sales]
+// VAR py  = CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( 'Calendar'[Date] ) )
+// RETURN DIVIDE ( cur - py, py )
