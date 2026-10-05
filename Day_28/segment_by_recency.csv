@@ -1,0 +1,5 @@
+frequency_segment,Active (0-90d),At Risk (91-180d),Lapsed (180d+)
+1 order (One-Time),367,108,1144
+2-3 orders (Occasional),661,182,761
+4-9 orders (Regular),1020,236,413
+10+ orders (Champions),837,63,61

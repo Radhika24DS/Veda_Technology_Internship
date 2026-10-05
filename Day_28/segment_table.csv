@@ -1,0 +1,5 @@
+frequency_segment,customers,total_orders,revenue,avg_orders,avg_order_value,avg_clv,avg_recency_days,pct_customers,pct_revenue
+1 order (One-Time),1619,1619,556724.97,1.0,343.87,343.87,351.67,27.66,3.26
+2-3 orders (Occasional),1604,3867,1629307.99,2.41,422.52,1015.78,216.92,27.4,9.54
+4-9 orders (Regular),1669,9712,3511363.65,5.82,355.63,2103.87,124.05,28.52,20.56
+10+ orders (Champions),961,21402,11383732.11,22.27,439.92,11845.71,46.82,16.42,66.65

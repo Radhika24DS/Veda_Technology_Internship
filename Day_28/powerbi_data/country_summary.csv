@@ -1,0 +1,42 @@
+country,customers,repeat_customers,revenue,repeat_rate_pct
+United Kingdom,5334,3868,14291648.5,72.52
+Germany,107,84,384082.98,78.5
+France,92,64,308319.08,69.57
+Spain,36,25,97270.53,69.44
+Belgium,27,21,60313.84,77.78
+Portugal,23,18,46609.52,78.26
+Netherlands,22,15,549773.41,68.18
+Switzerland,21,18,91903.94,85.71
+Sweden,19,8,86045.14,42.11
+Italy,17,11,28937.5,64.71
+Australia,14,9,161989.92,64.29
+Channel Islands,13,12,44330.33,92.31
+Finland,13,10,25180.1,76.92
+Norway,12,6,38575.36,50.0
+Austria,12,10,23179.77,83.33
+Denmark,11,10,72710.15,90.91
+Japan,10,7,43023.91,70.0
+Cyprus,9,5,21482.78,55.56
+USA,8,3,7920.01,37.5
+Poland,6,4,10214.29,66.67
+Unspecified,6,4,8607.35,66.67
+Greece,5,3,18711.19,60.0
+Canada,5,2,4332.1,40.0
+Israel,4,2,10415.24,50.0
+United Arab Emirates,4,2,8897.19,50.0
+EIRE,3,3,595601.08,100.0
+Malta,2,2,4757.34,100.0
+Bahrain,2,2,1354.37,100.0
+Brazil,2,0,1411.87,0.0
+RSA,2,0,1933.74,0.0
+Korea,2,0,1118.51,0.0
+Czech Republic,1,1,786.74,100.0
+Iceland,1,1,4921.53,100.0
+Lebanon,1,0,1693.88,0.0
+Lithuania,1,1,4892.68,100.0
+European Community,1,1,1159.25,100.0
+Nigeria,1,0,112.57,0.0
+Singapore,1,1,13158.16,100.0
+Saudi Arabia,1,0,145.92,0.0
+Thailand,1,1,3070.54,100.0
+West Indies,1,0,536.41,0.0

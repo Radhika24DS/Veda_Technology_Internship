@@ -1,0 +1,36 @@
+{
+  "cleaning_log": {
+    "raw_rows": 1067371,
+    "cancellation_rows": 19494,
+    "dropped_missing_customer": 243007,
+    "dropped_cancellations": 18744,
+    "dropped_nonpositive_qty_price": 71,
+    "dropped_non_product_lines": 2662,
+    "dropped_exact_duplicates": 26060,
+    "clean_rows": 776827
+  },
+  "kpis": {
+    "total_customers": 5853,
+    "repeat_customers": 4234,
+    "one_time_customers": 1619,
+    "repeat_rate_pct": 72.34,
+    "total_orders": 36600,
+    "total_revenue": 17081128.72,
+    "repeat_revenue_share_pct": 96.74,
+    "aov_overall": 466.7,
+    "aov_one_time_customers": 343.87,
+    "aov_repeat_customers": 472.38,
+    "aov_first_orders": 407.16,
+    "aov_repeat_orders": 478.03,
+    "avg_orders_per_customer": 6.25,
+    "avg_orders_per_repeat_customer": 8.26,
+    "median_days_to_second_order": 56.0,
+    "avg_clv": 2918.35,
+    "avg_clv_repeat": 3902.79,
+    "avg_clv_one_time": 343.87,
+    "repeat_rate_within_90d_pct": 46.18,
+    "date_from": "2009-12-01",
+    "date_to": "2011-12-09",
+    "repeat_rate_within_90d_eligible_pct": 47.06
+  }
+}
