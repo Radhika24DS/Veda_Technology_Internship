@@ -1,0 +1,10 @@
+step,rows_remaining
+Raw rows,1067371
+Drop exact duplicate rows,1033036
+Drop cancellations / adjustments (Invoice starts with C or A),1013926
+Keep Quantity > 0,1010533
+Keep Price > 0,1007912
+Keep real product codes (5 digits + optional letter),1003214
+Drop rows with missing Description,1003214
+"Drop non-product lines (carriage, postage, fees...)",1002991
+Orders with >= 2 distinct products (used for pairs),36302
