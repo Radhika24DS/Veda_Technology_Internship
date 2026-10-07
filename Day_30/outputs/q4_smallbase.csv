@@ -1,0 +1,49 @@
+Region,Category,Year,Sales,Prior_Base,YoY_Growth_Pct
+South,Technology,2015,22606.0,60896.0,-62.9
+West,Furniture,2017,78915.0,53512.0,47.5
+Central,Technology,2016,50205.0,37036.0,35.6
+Central,Office Supplies,2017,52701.0,39548.0,33.3
+South,Technology,2017,37040.0,28230.0,31.2
+East,Furniture,2015,63031.0,49157.0,28.2
+East,Technology,2016,51025.0,70362.0,-27.5
+South,Technology,2016,28230.0,22606.0,24.9
+Central,Furniture,2015,42841.0,34559.0,24.0
+East,Office Supplies,2017,38339.0,49948.0,-23.2
+East,Furniture,2016,48623.0,63031.0,-22.9
+West,Office Supplies,2015,51306.0,66151.0,-22.4
+West,Technology,2017,53784.0,68797.0,-21.8
+South,Office Supplies,2017,25693.0,31327.0,-18.0
+East,Technology,2015,70362.0,85396.0,-17.6
+Central,Furniture,2017,39078.0,46930.0,-16.7
+Central,Technology,2017,42864.0,50205.0,-14.6
+West,Technology,2016,68797.0,60251.0,14.2
+East,Technology,2017,58191.0,51025.0,14.0
+South,Office Supplies,2016,31327.0,36178.0,-13.4
+South,Furniture,2016,30140.0,26597.0,13.3
+East,Office Supplies,2016,49948.0,57379.0,-13.0
+West,Technology,2015,60251.0,69161.0,-12.9
+West,Office Supplies,2017,48107.0,55110.0,-12.7
+South,Office Supplies,2015,36178.0,32453.0,11.5
+West,Furniture,2015,56959.0,63205.0,-9.9
+Central,Furniture,2016,46930.0,42841.0,9.5
+Central,Technology,2015,37036.0,40311.0,-8.1
+West,Office Supplies,2016,55110.0,51306.0,7.4
+South,Furniture,2015,26597.0,28587.0,-7.0
+Central,Office Supplies,2016,39548.0,37279.0,6.1
+South,Furniture,2017,31975.0,30140.0,6.1
+West,Furniture,2016,53512.0,56959.0,-6.1
+East,Office Supplies,2015,57379.0,59785.0,-4.0
+East,Furniture,2017,47199.0,48623.0,-2.9
+Central,Office Supplies,2015,37279.0,37432.0,-0.4
+Central,Furniture,2014,34559.0,,
+Central,Office Supplies,2014,37432.0,,
+Central,Technology,2014,40311.0,,
+East,Furniture,2014,49157.0,,
+East,Office Supplies,2014,59785.0,,
+East,Technology,2014,85396.0,,
+South,Furniture,2014,28587.0,,
+South,Office Supplies,2014,32453.0,,
+South,Technology,2014,60896.0,,
+West,Furniture,2014,63205.0,,
+West,Office Supplies,2014,66151.0,,
+West,Technology,2014,69161.0,,
