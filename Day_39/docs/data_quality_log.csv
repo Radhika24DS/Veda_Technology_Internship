@@ -1,0 +1,17 @@
+step,detail,rows_affected
+Load,Raw rows loaded,226
+Standardise,Trimmed whitespace; 'Australia/Oceania' -> 'Oceania',18
+Standardise,Country names renamed to common English names (helps Power BI map geocoding),29
+Integrity,Duplicate country rows,0
+Integrity,Rows where deaths > confirmed or confirmed > population,0
+Missing,total_deaths blank -> 0 (blank means no deaths reported); flagged in deaths_assumed_zero,8
+Missing,total_recovered & active_cases left as NaN (cannot be inferred); flagged in recovery_data_missing,22
+Missing,serious_or_critical left as NaN (81 blanks = not reported); excluded from analysis,81
+Missing,total_tests / tests_per_1m left as NaN; testing-based metrics skipped for these rows,14
+Flag,"Recovered < 50% of cases in a country with >=1,000 cases: recovery feed looks stale; active_cases overstated",16
+Flag,Total tests < confirmed cases (likely counts people/lab-batches differently or partial reporting),3
+Flag,Population < 1M: per-million metrics are volatile; excluded from correlations & rankings,69
+Flag,"Fewer than 1,000 cases: CFR unreliable",10
+Derive,"cfr_pct, infection_rate_pct, cases/deaths/tests per 1M (recomputed from raw counts), tests_per_case, cumulative_positivity_pct, active_share_pct, recovery_rate_pct",226
+Clean,cumulative_positivity_pct > 100% set to NaN (tests < cases),3
+Derive,"Category columns for slicers: population_size, testing_tier, cfr_band, burden_tier; analysis_sample = pop>=1M & cases>=1,000",157
