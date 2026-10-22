@@ -1,0 +1,5 @@
+Segment,Customers,Avg_Recency_Days,Avg_Frequency,Avg_Monetary,Avg_Order_Value,Total_Revenue,Pct_Customers,Pct_Revenue
+Champions (VIP),686,11.1,13.9,8153.8,624.6,5593496.4,15.8,64.0
+Loyal Regulars,1182,68.1,4.2,1801.4,570.0,2129199.8,27.3,24.4
+Lapsed / At-Risk,1646,180.6,1.3,346.8,286.1,570883.2,38.0,6.5
+Promising Newcomers,820,17.4,2.1,541.0,277.5,443648.2,18.9,5.1

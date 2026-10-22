@@ -1,0 +1,23 @@
+{
+  "raw_rows": 541909,
+  "dropped_missing_customer": 135080,
+  "dropped_duplicates": 5225,
+  "cancellation_rows": 8872,
+  "dropped_cancellations": 8872,
+  "dropped_nonpositive_qty_price": 40,
+  "dropped_non_product_codes": 1542,
+  "clean_rows": 391150,
+  "customers": 4334,
+  "date_min": "2010-12-01",
+  "date_max": "2011-12-09",
+  "total_revenue": 8737227.64,
+  "silhouette_by_k": {
+    "2": 0.435,
+    "3": 0.341,
+    "4": 0.336,
+    "5": 0.315,
+    "6": 0.312,
+    "7": 0.307,
+    "8": 0.297
+  }
+}
